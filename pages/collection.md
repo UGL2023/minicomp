@@ -1,6 +1,6 @@
 ---
 layout: page
-title: British Guiana
+title: Browse
 gallery: True
 permalink: /collection/
 ---
