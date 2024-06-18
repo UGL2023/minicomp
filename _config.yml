@@ -59,14 +59,14 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Exhibits"
+  - label: "CRL"
     sub:
       - label: "Parallax Images"
         link: "/exhibits/parallax/"
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
-        link: "/exhibits/subset/"
+        link: "/exhibits/subset/" 
   - label: "Browse"
     link: "/browse/"
   - label: "Search"

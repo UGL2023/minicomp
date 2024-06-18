@@ -1,9 +1,9 @@
 ---
 layout: exhibit
-title: "Exhibit with Subset Collection"
+title: "Guyana Prize for Literature"
 gallery: True
-author: Mihr 'Ali
-publish_date: 2018-11-15
+author: Caribbean Research Library
+publish_date: 2024-06-18
 permalink: /exhibits/subset/
 ---
 

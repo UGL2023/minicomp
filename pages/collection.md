@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Browse
+title: CRL
 gallery: True
 permalink: /browse/
 ---

@@ -1,19 +1,17 @@
 ---
 layout: exhibit
-title: 'British Guiana'
+title: 'Parliament of Guyana'
 author: Caribbean Research Library
 publish_date: 2024-06-13
 permalink: /exhibits/parallax/
 ---
 
-British Guiana  
-<iframe width="900" height="315" src="https://www.youtube.com/embed/h8LGSW8kEjs?si=EVPrAHa2joCCZzCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-British Guiana was a British colony part of the mainland British West Indies which resides on the northern coast of South America. Since 1966 it has been known as the independent nation of Guyana.
+Parliament of Guyana was created by the 1966 Constitution of Guyana, embodied in the Schedule of the Guyana Independence Order, made pursuant to the Guyana Independence Act, 1966. The Guyana Independence Act was passed on 12th May, 1966 and came into force on 26th May, 1966.The First sitting of the National Assembly of the First Parliament of Guyana Parliament was held on the 26th May, 1966. While the law enacting Guyana’s Parliament came into force on 26th May, 1966, it would be misleading to conclude that Guyana’s Parliamentary system was created at Independence. 
 
 {% include parallax_image.html collection='minicomp' pid='gy_001' y='20%' %}
 
-The economy of British Guiana was completely based on sugarcane production until the 1880s, when falling cane sugar prices stimulated a shift toward rice farming, mining and forestry. However, sugarcane remained a significant part of the economy (in 1959 sugar still accounted for nearly 50% of exports). Under the Dutch, settlement and economic activity was concentrated around sugarcane plantations lying inland from the coast. Under the British, cane planting expanded to richer coastal lands, with greater coastline protection.
+ From the years 1831 to 1928 the Law Making Body of British Guiana was the Court of Policy. which consisted the Governor, seven official members and eight elected members.
+ In 1928 a new Constitution was introduced and British Guiana became a British Crown Colony. A Legislative Council was established and replaced the Dutch created Court of Policy.
 
 ---
+### See reference page for additional information

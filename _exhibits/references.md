@@ -1,24 +1,22 @@
 ---
 layout: exhibit
-title: 'i will figure thid out later'
-author: Me
+title: Guiana Parliament
+author: Caribbean Research Library
 publish_date: 2024-5-14
 permalink: /exhibits/references/
 ---
+## History of the Parliament  
 
-Ut eleifend lacus at erat efficitur bibendum. Ut laoreet elit nec dolor molestie finibus. Vivamus justo risus, scelerisque nec dolor ut, pretium fringilla purus. Nam nisl erat, tristique ac libero vitae, bibendum pellentesque nulla. Praesent accumsan ut mauris ut euismod. Etiam mattis a justo eget blandit. Aliquam vitae magna eget nisi suscipit finibus id sit amet nulla.
+Parliament of Guyana was created by the 1966 Constitution of Guyana, embodied in the Schedule of the Guyana Independence Order, made pursuant to the Guyana Independence Act, 1966. The Guyana Independence Act was passed on 12th May, 1966 and came into force on 26th May, 1966.The First sitting of the National Assembly of the First Parliament of Guyana Parliament was held on the 26th May, 1966. While the law enacting Guyana’s Parliament came into force on 26th May, 1966, it would be misleading to conclude that Guyana’s Parliamentary system was created at Independence.
 
-Nam velit leo, mattis ac dui non, vulputate porttitor sapien. Praesent in aliquet dui. Nulla facilisi. Maecenas nulla ex, facilisis non aliquet ac, ultrices eu sem. Sed vel aliquet urna. Mauris quis ex at lectus iaculis elementum id id massa. Integer luctus nulla vel tellus rutrum, ac pulvinar erat finibus. Aliquam erat volutpat. Pellentesque vel velit sit amet mauris dignissim feugiat.
+ From the years 1831 to 1928 the Law Making Body of British Guiana was the Court of Policy. which consisted the Governor, seven official members and eight elected members.
+ In 1928 a new Constitution was introduced and British Guiana became a British Crown Colony. A Legislative Council was established and replaced the Dutch created Court of Policy.
 
-{% include inline_image.html collection='minicomp' pid='obj7' %}
+In 1953 a new Constitution was promulgated and a bicameral legislature, consisting of a State Council and a House of Assembly was introduced. The State Council consisted of nine members. The House of Assembly consisted of a Speaker, three ex officio Members and twenty four Elected Members. The Speaker was appointed by the governor. A new and separate Department, which was called the Office of the Legislature, was established with a Clerk of the Legislature as its head, to serve the new bicameral Legislature. Also in 1953 also a Ministerial system of Government and universal adult suffrage were introduced.
 
-Duis commodo ligula libero, a pharetra ligula posuere sit amet. Sed ipsum dolor, elementum eget nisl eget, sagittis vestibulum augue. Donec tincidunt mauris et nunc sagittis, nec consectetur lorem tristique. Nulla tincidunt magna ut ullamcorper consectetur. Nulla mi urna, feugiat sed massa non, ullamcorper efficitur dolor. Sed luctus, massa eget pharetra posuere, nibh sem eleifend lectus, lobortis molestie ante libero non metus. Aenean et est sit amet est pulvinar convallis vel non tortor. Nunc semper commodo fringilla. Proin eget metus eget felis faucibus aliquet. Cras ultrices turpis id nibh cursus fringilla. Aenean nec magna turpis. Suspendisse egestas tellus iaculis ante pharetra imperdiet ac at odio.
+This was short-lived as in October, 1953 the British suspended the Constitution and an Interim Government was established by the British Guiana (Constitutional) (Temporary Provisions) Order in Council, 1953. A Legislative council consisting of a Speaker, three ex officio Members and not more than twenty four Nominated Members was created by this Order on the 22nd December, 1953. The Speaker, who was not an ex officio member or Nominated member of the Legislative Council, was appointed by the Governor.
 
-Integer eu augue elementum, venenatis nisi vitae, ultrices magna. Nunc accumsan sem quis tristique iaculis. Quisque sed lorem tortor. Quisque viverra sem a orci aliquet sodales. Aliquam commodo eros at sagittis vehicula. Quisque in massa turpis. Aliquam aliquam consectetur magna non dignissim. Sed fringilla a ligula vitae molestie.
+In 1956 the British Guiana (Constitutional) (Temporary Provisions) Order in Council was amended. The Legislative Council appointed under the British Guiana (Constitution) (Temporary Provisions) Order in Council was dissolved with effect from 29th June, 1957.
+A second Legislative Council constituted under the (British Guiana (Constitution) Temporary Provisions) Orders in Council 1953 and 1956 was appointed. The Legislative Council consisted of the Speaker, three ex – offcio members, fourteen elected members andselevenanominatedamembers.
 
-Duis finibus leo non velit viverra tincidunt. Fusce efficitur laoreet convallis. Sed sem felis, porttitor sit amet volutpat ac, consequat quis lectus. Donec elementum dignissim vehicula. Pellentesque fringilla ex bibendum, ornare sapien a, mollis neque. Duis faucibus diam vitae faucibus feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra elit sem, et euismod massa mattis ut. Phasellus maximus ipsum in nulla sollicitudin viverra. Morbi semper lectus quis dolor cursus, ut convallis lacus venenatis. Pellentesque lorem mauris, malesuada a fringilla et, iaculis sodales metus. Suspendisse finibus purus ut sem commodo feugiat.
-
-
-{% include inline_image.html collection='minicomp' pid='obj2' %}
-
-Duis commodo ligula libero, a pharetra ligula posuere sit amet. Sed ipsum dolor, elementum eget nisl eget, sagittis vestibulum augue. Donec tincidunt mauris et nunc sagittis, nec consectetur lorem tristique. Nulla tincidunt magna ut ullamcorper consectetur. Nulla mi urna, feugiat sed massa non, ullamcorper efficitur dolor. Sed luctus, massa eget pharetra posuere, nibh sem eleifend lectus, lobortis molestie ante libero non metus. Aenean et est sit amet est pulvinar convallis vel non tortor. Nunc semper commodo fringilla. Proin eget metus eget felis faucibus aliquet. Cras ultrices turpis id nibh cursus fringilla. Aenean nec magna turpis. Suspendisse egestas tellus iaculis ante pharetra imperdiet ac at odio.
+In 1961 a new Constitution was established and a bicameral legislature consisting of a Legislative Assembly and a Senate was created. The Senate consisted of thirteen members, who were appointed by the Governor. The Legislative Assembly consisted of thirty five (35) members elected under the electoral system of First Past the Post.
