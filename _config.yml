@@ -58,23 +58,35 @@ search:
 # (where it goes). An item can optionally have a dropdown
 # submenu via `sub`.
 
-menu:
+menu:     
+  - label: "Browse"
+    link: "/browse/"
+  - label: "Search"
+    link: "/search/"
   - label: "CRL"
     sub:
-      - label: "Parallax Images"
+      - label: "CRL Images"
         link: "/exhibits/parallax/"
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
         link: "/exhibits/subset/" 
-  - label: "Browse"
-    link: "/browse/"
-  - label: "Search"
-    link: "/search/"
-  - label: "Library"
-    link: "/library/"
-  - label: "Items"
-    link: "/items/"
+  - label: "RSD"
+    sub:
+      - label: "RSD Images"
+        link: "/exhibits/parallax/"
+      - label: "Image References"
+        link: "/exhibits/references/"
+      - label: "Subset Collection"
+        link: "/exhibits/subset/" 
+  - label: "TSD"
+    sub:
+      - label: "TSD Images"
+        link: "/exhibits/parallax/"
+      - label: "Image References"
+        link: "/exhibits/references/"
+      - label: "Subset Collection"
+        link: "/exhibits/subset/"    
   - label: "Help"
     link: "/help/"
   - label: "About"
