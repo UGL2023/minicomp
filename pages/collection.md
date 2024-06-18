@@ -17,3 +17,4 @@ The British consolidated the territories into a single colony in 1831. The colon
 {% include gallery.html facet_by='object_type|location|tags*' collection='minicomp' num_column=4 %}
 
 
+
