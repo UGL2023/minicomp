@@ -1,7 +1,7 @@
 ---
 layout: exhibit
 title: 'British Guiana'
-author: CRL
+author: Caribbean Research Library
 publish_date: 2024-06-13
 permalink: /exhibits/parallax/
 ---
