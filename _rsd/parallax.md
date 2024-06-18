@@ -8,7 +8,7 @@ permalink: /exhibits/parallax/
 
 . 
 
-{% include parallax_image.html collection='minicomp' pid='gy_001' y='20%' %}
+{% include parallax_image.html collection='minicomp' pid='gy_0010' y='20%' %}
 
  
 
