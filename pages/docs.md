@@ -1,7 +1,7 @@
 ---
 layout: page
-title: where is this 
-permalink: /learning/
+title: Items
+permalink: /items/
 ---
 
 ## ... use Wax
