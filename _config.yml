@@ -68,7 +68,7 @@ menu:
       - label: "Subset Collection"
         link: "/exhibits/subset/"
   - label: "Browse"
-    link: "/collection/"
+    link: "/browse/"
   - label: "Search"
     link: "/search/"
   - label: "Items"
