@@ -2,7 +2,7 @@
 layout: page
 title: Browse
 gallery: True
-permalink: /collection/
+permalink: /browse/
 ---
 
 British Guiana was a British colony, part of the mainland British West Indies. It was located on the northern coast of South America. Since 1966 it has been known as the independent nation of Guyana.  
