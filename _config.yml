@@ -1,5 +1,5 @@
-title: Caribbean Research Library
-subtitle: University of Guyana
+title: University of Gyana Library
+subtitle: Repository
 author:
   name: Wax user
   email: your-email@domain.com
@@ -75,7 +75,5 @@ menu:
     link: "/items/"
   - label: "Help"
     link: "/help/"
-  - label: "Library"
-    link: "/library/"
-  - label: "About"
-    link: "/about/" 
+    
+   
