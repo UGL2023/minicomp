@@ -23,9 +23,6 @@ NORMAN E. CAMERON COLLECTION
 
 A.J. SEYMOUR 
   
+  {% include parallax_image.html collection='minicomp' pid='gy_014' y='20%' %}
 
-<iframe width="900" height="315" src="https://www.youtube.com/embed/jKBb6RcVdxU?si=_1G2BEURNyD-UOip" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-#### Kaieteur Falls
-The Largest Single Drop Water Fall in the World
 

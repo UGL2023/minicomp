@@ -74,8 +74,6 @@ menu:
         link: "/exhibits/subset/"
   - label: "CRL"      
     sub:
-      - label: "Parallax Images"
-        link: "/exhibits/parallax/"
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
