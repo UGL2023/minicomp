@@ -1,4 +1,4 @@
-title: University of Gyana Library
+title: University of Guyana Library
 subtitle: 
 author:
   name: Wax user
@@ -76,7 +76,6 @@ menu:
     sub:
       - label: "Image References"
         link: "/exhibits/references/"
-       
   - label: "Items"
     link: "/items/"
   - label: "Help"
