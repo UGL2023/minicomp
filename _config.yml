@@ -74,16 +74,8 @@ menu:
         link: "/exhibits/subset/"  
   - label: "Items"
     link: "/items/"
-  - label: "Help"
+  - label: "Ask a Librarian"
     link: "/help/"
-  - label: "Library"
-    sub:
-      - label: "Parallax Images"
-        link: "/library/parallax/"
-      - label: "Image References"
-        link: "/library/references/"
-      - label: "Subset Collection"
-        link: "/library/subset/" 
   - label: "About"
     link: "/about/" 
 
