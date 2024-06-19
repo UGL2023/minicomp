@@ -59,23 +59,22 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Caribbean Research Library"
-    sub:
-      - label: "Parallax Images"
-        link: "/exhibits/parallax/"
-      - label: "Image References"
-        link: "/exhibits/references/"
-      - label: "Subset Collection"
-        link: "/exhibits/subset/"
+  
   - label: "Browse"
     link: "/browse/"
   - label: "Search"
     link: "/search/"
   - label: "Items"
     link: "/items/"
-  - label: "Help"
-    link: "/help/"
-  - label: "Library"
+  - label: "CRL"
+    sub:
+      - label: "Parallax Images"
+        link: "/exhibits/parallax/"
+      - label: "Image References"
+        link: "/exhibits/references/"
+      - label: "Subset Collection"
+        link: "/exhibits/subset/"  
+  - label: "TSD"
     sub:
       - label: "Parallax Images"
         link: "/exhibits/parallax/"
@@ -83,6 +82,16 @@ menu:
         link: "/exhibits/references/"
       - label: "Subset Collection"
         link: "/library/subset/" 
+  - label: "RSD"
+    sub:
+      - label: "Parallax Images"
+        link: "/exhibits/parallax/"
+      - label: "Image References"
+        link: "/exhibits/references/"
+      - label: "Subset Collection"
+        link: "/exhibits/subset/"
+  - label: "Help"
+    link: "/help/"          
   - label: "About"
     link: "/about/" 
 
