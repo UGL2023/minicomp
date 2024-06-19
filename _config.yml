@@ -59,7 +59,7 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Exhibits"
+  - label: "Caribbean Research Library"
     sub:
       - label: "Parallax Images"
         link: "/exhibits/parallax/"
@@ -75,18 +75,16 @@ menu:
     link: "/items/"
   - label: "Help"
     link: "/help/"
-menu:
+  - label: "About"
+    link: "/about/" 
   - label: "Library"
     sub:
       - label: "Parallax Images"
-        link: "/library/parallax/"
+        link: "/exhibits/parallax/"
       - label: "Image References"
-        link: "/library/references/"
+        link: "/exhibits/references/"
       - label: "Subset Collection"
-        link: "/library/subset/"
-        
-    - label: "About"
-      link: "/about/" 
-
+        link: "/exhibits/subset/"
+     
     
    
