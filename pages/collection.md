@@ -5,16 +5,14 @@ gallery: True
 permalink: /browse/
 ---
 
-British Guiana was a British colony, part of the mainland British West Indies. It was located on the northern coast of South America. Since 1966 it has been known as the independent nation of Guyana.  
-
-The first known Europeans to encounter Guiana was Sir Walter Raleigh, an English explorer, and his crew. The Dutch were the first Europeans to settle there, starting in the early 17th century. They founded the colonies of Essequibo and Berbice, adding Demerara in the mid-18th century.  
-
-
-In 1796, Great Britain took over these three colonies during hostilities with the French, who had occupied the Netherlands. Britain returned control of the territory to the Batavian Republic in 1802, but captured the colonies a year later during the Napoleonic Wars. The Netherlands officially ceded the colonies to the United Kingdom in 1815.
+Parliament of Guyana was created by the 1966 Constitution of Guyana, embodied in the Schedule of the Guyana Independence Order, made pursuant to the Guyana Independence Act, 1966. The Guyana Independence Act was passed on 12th May, 1966 and came into force on 26th May, 1966.The First sitting of the National Assembly of the First Parliament of Guyana Parliament was held on the 26th May, 1966.
 
 The British consolidated the territories into a single colony in 1831. The colony's capital was at Georgetown (known as Stabroek prior to 1812). Since the late 19th century, the economy has become more diversified but has still relied on resource exploitation. Guyana became independent of the United Kingdom on 26 May 1966.
 
 {% include gallery.html facet_by='object_type|location|tags*' collection='minicomp' num_column=4 %}
+
+While the law enacting Guyana’s Parliament came into force on 26th May, 1966, it would be misleading to conclude that Guyana’s Parliamentary system was created at Independence.
+ From the years 1831 to 1928 the Law Making Body of British Guiana was the Court of Policy. which consisted the Governor, seven official members and eight elected members.
 
 
 
