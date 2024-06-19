@@ -17,7 +17,7 @@ The gallery below includes the subset of all portraits in the larger minicomp co
 {% include gallery.html collection='minicomp' field='object_type' value='portrait' num_column=4 %}
 
 
-## Yogesh
+## Subset Collection with Facets
 
 The gallery below includes the subset of all manuscripts in the larger minicomp collection. Just as you with the larger collection, you can facet the collection by other criteria. The gallery will dynamically change to reflect your selections.
 

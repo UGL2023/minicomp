@@ -12,7 +12,9 @@ The first known Europeans to encounter Guiana was Sir Walter Raleigh, an English
 
 In 1796, Great Britain took over these three colonies during hostilities with the French, who had occupied the Netherlands. Britain returned control of the territory to the Batavian Republic in 1802, but captured the colonies a year later during the Napoleonic Wars. The Netherlands officially ceded the colonies to the United Kingdom in 1815.
 
+The British consolidated the territories into a single colony in 1831. The colony's capital was at Georgetown (known as Stabroek prior to 1812). Since the late 19th century, the economy has become more diversified but has still relied on resource exploitation. Guyana became independent of the United Kingdom on 26 May 1966.
+
 {% include gallery.html facet_by='object_type|location|tags*' collection='minicomp' num_column=4 %}
 
-The British consolidated the territories into a single colony in 1831. The colony's capital was at Georgetown (known as Stabroek prior to 1812). Since the late 19th century, the economy has become more diversified but has still relied on resource exploitation. Guyana became independent of the United Kingdom on 26 May 1966.
+
 

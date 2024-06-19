@@ -59,31 +59,30 @@ search:
 # submenu via `sub`.
 
 menu:
-  
-  - label: "Browse"
-    link: "/browse/"
-  - label: "Search"
-    link: "/search/"
-  - label: "Items"
-    link: "/items/"
-  - label: "CRL"
+  - label: "Exhibits"
     sub:
       - label: "Parallax Images"
         link: "/exhibits/parallax/"
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
-        link: "/exhibits/subset/"  
-  - label: "TSD"
+        link: "/exhibits/subset/"
+  - label: "Browse"
+    link: "/browse/"
+  - label: "Search"
+    link: "/search/"
+  - label: "Items"
+    link: "/items/"
+  - label: "Help"
+    link: "/help/"
+  - label: "Library"
     sub:
-  - label: "Subset Collection"
-    link: "/library/subset/" 
-  - label: "RSD"
-    sub:
-  - label: "Subset Collection"
-    link: "/exhibits/subset/"
-  - label: "Ask a Librarian"
-    link: "/help/"          
+      - label: "Parallax Images"
+        link: "/library/parallax/"
+      - label: "Image References"
+        link: "/library/references/"
+      - label: "Subset Collection"
+        link: "/library/subset/" 
   - label: "About"
     link: "/about/" 
 
