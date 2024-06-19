@@ -8,21 +8,6 @@
 layout: home
 ---
 
-# Library Collections
- 
+# Search Collections
 
-A.W.B. LONG COLLECTION   
-
-ROTH COLLECTION  
-
-UNION OF CULTURAL CLUBS COLLECTION 
-
-RARE BOOK COLLECTION 
-
-NORMAN E. CAMERON COLLECTION 
-
-A.J. SEYMOUR 
-  
-  {% include parallax_image.html collection='minicomp' pid='gy_014' y='20%' %}
-
-
+{% include search_box.html search='main' %}
