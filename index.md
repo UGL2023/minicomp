@@ -8,4 +8,4 @@
 layout: home
 ---
 
-# Welcome to the University of Guyana Library Digital Repository
+# Welcome to the University of Guyana Library Digital Repository  
