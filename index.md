@@ -11,12 +11,3 @@ layout: home
 # Search Collections
 
 {% include search_box.html search='main' %}  
-
-
-
-
-
-
-
-
-

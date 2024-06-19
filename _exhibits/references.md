@@ -7,7 +7,6 @@ permalink: /exhibits/references/
 ---
 
 
-### University of Guyana Library Collections
 
 {% include parallax_image.html collection='minicomp' pid='gy_012' y='20%' %}
 ### A.W.B Long- 
