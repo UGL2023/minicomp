@@ -1,7 +1,8 @@
 ---
 layout: exhibit
 title: 'Caribbean Research Library Collections'
-publish_date: 2024-5-14
+by: University of Guyana Library
+publish date: 06/19/2024
 permalink: /exhibits/references/
 ---
 
