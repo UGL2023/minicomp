@@ -6,8 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
----
 
+---
 
  **Located at Turkeyen Campus on the East Coast of Demerara provides students a number of services to help them get the most out of studying and research at University of Guyana.**
 
@@ -32,5 +32,3 @@ The Library is closed for one (1) week in December, during the main Christmas ho
 
 **On Public Holidays**
 The Library is closed on all public holidays.
-
- 
