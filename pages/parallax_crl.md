@@ -1,9 +1,10 @@
 ---
 layout: exhibit
 title: 'CRL'
+gallery: True
 author: Caribbean Research Library
 publish_date: 2024-06-13
-permalink: /exhibits/parallax/
+permalink: /crl/
 ---
 The Caribbean Research Library (CRL) is a specialised reference collection of all types of materials both current and retrospective, which relate to Guyana and the Caribbean. It is the largest of its kind regionally, and its resources and services are open to organisations and individuals engaged in research on Guyana and the Caribbean.
 
@@ -11,7 +12,7 @@ The Caribbean Research Library (CRL) is a specialised reference collection of al
 
 The primary objective of the CRL is to be an important reference collection. It therefore aims to be as comprehensive as possible in the collection and acquisition of Caribbean material. This objective has been achieved to the extent that the CRL can claim to be the largest collection in the world on GUYANA. In scope, this unit covers the Guianas, Belize and the Caribbean islands, and in some instances, items on flora and fauna of South America. It contains over 30,000 books, pamphlets, manuscripts, newspapers, microfilms, maps, records, tapes and other miscellaneous items, some of which are both unique and rare. The immediate objectives of the division are as follows:
 
-{% include parallax_image.html collection='minicomp' pid='gy_009' y='20%' %}
+{% include parallax_image.html collection='minicomp' pid='gy_010' y='20%' %}
 
 
 
