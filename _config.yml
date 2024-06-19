@@ -74,7 +74,7 @@ menu:
         link: "/exhibits/subset/"  
   - label: "Items"
     link: "/items/"
-  - label: "Ask a Librarian"
+  - label: "Help"
     link: "/help/"
   - label: "About"
     link: "/about/" 
