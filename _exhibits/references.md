@@ -10,7 +10,7 @@ permalink: /exhibits/references/
 
 {% include parallax_image.html collection='minicomp' pid='gy_012' y='20%' %}
 
-<div{% include inline_image.html collection='minicomp' pid='gy_009' %}> <div{% include inline_image.html collection='minicomp' pid='gy_009' %}>
+{% include inline_image.html collection='minicomp' pid='gy_009' %} {% include inline_image.html collection='minicomp' pid='gy_009' %}
 
 ### Roth- Collection of Manuscripts
 
