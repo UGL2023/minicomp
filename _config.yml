@@ -83,8 +83,7 @@ menu:
       - label: "Image References"
         link: "/library/references/"
       - label: "Subset Collection"
-        link: "/library/subset/"
-        
+        link: "/library/subset/" 
     - label: "About"
       link: "/about/" 
 
