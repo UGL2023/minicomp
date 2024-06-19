@@ -10,7 +10,7 @@ layout: home
 
 # Search Collections
 
-                                                                                                                                {% include search_box.html search='main' %}  
+{% include search_box.html search='main' %}  
 
 
 
