@@ -7,8 +7,6 @@ permalink: /exhibits/references/
 ---
 
 
-[![Logo](https://drive.google.com/file/d/132HiIYdVmCeu--y8AbfFPecjzUsjSe6Z/view?usp=sharing)]
-
 
 {% include parallax_image.html collection='minicomp' pid='gy_012' y='20%' %}
 ### A.W.B Long- 
