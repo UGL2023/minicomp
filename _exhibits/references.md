@@ -7,7 +7,8 @@ permalink: /exhibits/references/
 ---
 
 
-{% include search_box.html search='main' %}
+[![Logo](https://drive.google.com/file/d/132HiIYdVmCeu--y8AbfFPecjzUsjSe6Z/view?usp=sharing)]
+
 
 {% include parallax_image.html collection='minicomp' pid='gy_012' y='20%' %}
 ### A.W.B Long- 
@@ -44,3 +45,6 @@ Literary Awards for Guyanese and Caribbean authors of fiction, poetry and drama
 {% include parallax_image.html collection='minicomp' pid='gy_013' y='20%' %}
 ### Norman E Cameron
     Manuscripts, Diaries
+
+
+[Logo]: https://https://drive.google.com/file/d/132HiIYdVmCeu--y8AbfFPecjzUsjSe6Z/view?usp=sharing
