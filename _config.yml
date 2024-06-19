@@ -75,7 +75,6 @@ menu:
     link: "/items/"
   - label: "Help"
     link: "/help/"
-menu:
   - label: "Library"
     sub:
       - label: "Parallax Images"
@@ -83,10 +82,9 @@ menu:
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
-        link: "/library/subset/"
-        
-    - label: "About"
-      link: "/about/" 
+        link: "/library/subset/" 
+  - label: "About"
+    link: "/about/" 
 
     
    
