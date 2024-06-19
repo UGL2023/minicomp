@@ -7,6 +7,7 @@ permalink: /exhibits/references/
 ---
 
 
+{% include search_box.html search='main' %}
 
 {% include parallax_image.html collection='minicomp' pid='gy_012' y='20%' %}
 ### A.W.B Long- 

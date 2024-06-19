@@ -5,7 +5,6 @@ permalink: /about/
 ---
 
 
-
 The Caribbean Research Library (CRL) is a specialised reference collection of all types of materials both current and retrospective, which relate to Guyana and the Caribbean. It is the largest of its kind regionally, and its resources and services are open to organisations and individuals engaged in research on Guyana and the Caribbean.
 
  
