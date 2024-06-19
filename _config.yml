@@ -59,6 +59,11 @@ search:
 # submenu via `sub`.
 
 menu:
+ 
+  - label: "Browse"
+    link: "/browse/"
+  - label: "Search"
+    link: "/search/"
   - label: "Exhibits"
     sub:
       - label: "Parallax Images"
@@ -66,11 +71,7 @@ menu:
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
-        link: "/exhibits/subset/"
-  - label: "Browse"
-    link: "/browse/"
-  - label: "Search"
-    link: "/search/"
+        link: "/exhibits/subset/"  
   - label: "Items"
     link: "/items/"
   - label: "Help"
