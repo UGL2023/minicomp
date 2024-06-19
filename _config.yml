@@ -1,5 +1,5 @@
 title: University of Gyana Library
-subtitle: Repository
+subtitle: 
 author:
   name: Wax user
   email: your-email@domain.com
@@ -75,8 +75,7 @@ menu:
     link: "/items/"
   - label: "Help"
     link: "/help/"
-  - label: "About"
-    link: "/about/" 
+menu:
   - label: "Library"
     sub:
       - label: "Parallax Images"
@@ -84,7 +83,10 @@ menu:
       - label: "Image References"
         link: "/exhibits/references/"
       - label: "Subset Collection"
-        link: "/exhibits/subset/"
-     
+        link: "/library/subset/"
+        
+    - label: "About"
+      link: "/about/" 
+
     
    
