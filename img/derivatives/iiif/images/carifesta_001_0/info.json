@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/carifesta_001_0",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1860,
+  "height": 2612,
+  "sizes": [
+    {
+      "width": 1860,
+      "height": 2612
+    },
+    {
+      "width": 250,
+      "height": 351
+    },
+    {
+      "width": 1140,
+      "height": 1601
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

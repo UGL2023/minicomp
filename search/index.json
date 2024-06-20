@@ -3,9 +3,44 @@ layout: none
 ---
 [
   {
+    "pid": "carifesta_001",
+    "location": "Guyana",
+    "_date": "5/25/1905",
+    "object_type": "pdf",
+    "source": "https://drive.google.com/file/d/1G8obuEZpLQXqbIO7UW1z3iij9mmWqbUy/view?usp=drive_link",
+    "collection": "minicomp",
+    "thumbnail": "/img/derivatives/iiif/images/carifesta_001_0/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/minicomp/carifesta_001",
+    "lunr_id": 0
+  },
+  {
+    "pid": "carifesta_002",
+    "location": "Guyana",
+    "_date": "5/25/1905",
+    "object_type": "pdf",
+    "source": "https://drive.google.com/file/d/1gLVFe0pMNuOgH-jrrQwiSeXTd59g7zhZ/view?usp=sharing",
+    "collection": "minicomp",
+    "thumbnail": "/img/derivatives/iiif/images/carifesta_002_00/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/minicomp/carifesta_002",
+    "lunr_id": 1
+  },
+  {
+    "pid": "carifesta_003",
+    "location": "Guyana",
+    "_date": "1800_2000",
+    "object_type": "pdf",
+    "source": "https://drive.google.com/file/d/1jKhIo-Hmuwv86GfKc9k12MXo83itzDno/view?usp=drive_link",
+    "collection": "minicomp",
+    "thumbnail": "/img/derivatives/iiif/images/carifesta_003_00/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/minicomp/carifesta_003",
+    "lunr_id": 2
+  },
+  {
     "pid": "gy_001",
     "location": "brickdam",
-    "label": "parliament",
     "_date": "1950",
     "object_type": "building",
     "source": "https://drive.google.com/file/d/1j6m0FBmedufZFj47_Yrz019IOnnXXiJX/view?usp=sharing",
@@ -13,12 +48,11 @@ layout: none
     "thumbnail": "/img/derivatives/iiif/images/gy_001/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_001",
-    "lunr_id": 0
+    "lunr_id": 3
   },
   {
     "pid": "gy_002",
     "location": "demerara_river",
-    "label": "lighthouse",
     "_date": "1950",
     "object_type": "port",
     "source": "https://drive.google.com/file/d/18YrPaKrfVMyVPkrJnPExFy04-KMTYNsZ/view?usp=sharing",
@@ -26,12 +60,11 @@ layout: none
     "thumbnail": "/img/derivatives/iiif/images/gy_002/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_002",
-    "lunr_id": 1
+    "lunr_id": 4
   },
   {
     "pid": "gy_003",
     "location": "middle_street",
-    "label": "parade_ground",
     "_date": "1950",
     "object_type": "park",
     "source": "https://drive.google.com/file/d/1S8FQrUpAYxdJ1cMCoVCAG3f5DQ4Lo0dt/view?usp=sharing",
@@ -39,155 +72,143 @@ layout: none
     "thumbnail": "/img/derivatives/iiif/images/gy_003/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_003",
-    "lunr_id": 2
+    "lunr_id": 5
   },
   {
     "pid": "gy_004",
     "location": "region_3",
-    "label": "sugar_estate",
-    "_date": "8/9/1970",
+    "_date": "08/09/70",
     "object_type": "plantation",
     "source": "https://drive.google.com/file/d/1ctS_83erzt3tpGJ-Eyae61eAP2ihCbFQ/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_004/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_004",
-    "lunr_id": 3
+    "lunr_id": 6
   },
   {
     "pid": "gy_005",
     "location": "region_four",
-    "label": "church",
-    "_date": "1/10/1960",
+    "_date": "01/10/60",
     "object_type": "church",
     "source": "https://drive.google.com/file/d/1Az8cRba3BaerlTR5ZJRTAOP7bNRzILC-/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_005/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_005",
-    "lunr_id": 4
+    "lunr_id": 7
   },
   {
     "pid": "gy_006",
     "location": "region_four",
-    "label": "high_street",
-    "_date": "10/12/1950",
+    "_date": "10/12/50",
     "object_type": "main_street",
     "source": "https://drive.google.com/file/d/1OoMfOKtDQEg6uOBenxBgnbqcncRHk3aD/view?usp=drive_link",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_006/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_006",
-    "lunr_id": 5
+    "lunr_id": 8
   },
   {
     "pid": "gy_007",
     "location": "region_four",
-    "label": "water_street",
-    "_date": "11/13/1960",
+    "_date": "11/13/60",
     "object_type": "street",
     "source": "https://drive.google.com/file/d/1VxxbDqDuaKKET-h3Ran3-C8kLvbopAf1/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_007/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_007",
-    "lunr_id": 6
+    "lunr_id": 9
   },
   {
     "pid": "gy_008",
     "location": "region_ten",
-    "label": "roman_church",
-    "_date": "11/14/1940",
+    "_date": "11/14/40",
     "object_type": "church",
     "source": "https://drive.google.com/file/d/1FIDouBH5JxeXNUYVbgDuCF2KvMzX0Rxf/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_008/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_008",
-    "lunr_id": 7
+    "lunr_id": 10
   },
   {
     "pid": "gy_009",
     "location": "region_three",
-    "label": "military_hospital",
-    "_date": "11/15/1945",
+    "_date": "11/15/45",
     "object_type": "hospital",
     "source": "https://drive.google.com/file/d/1oAq9M-btGhGlrZKzC7jtm1TwpxNgWzEm/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_009/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_009",
-    "lunr_id": 8
+    "lunr_id": 11
   },
   {
     "pid": "gy_010",
     "location": "region_ten",
-    "label": "royal_bank_of_canada",
-    "_date": "11/16/1976",
+    "_date": "11/16/76",
     "object_type": "bank",
     "source": "https://drive.google.com/file/d/1qdvi88l4wk_jKARJDWheYmQ28bBQGUYK/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_010/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_010",
-    "lunr_id": 9
+    "lunr_id": 12
   },
   {
     "pid": "gy_011",
     "location": "georgetown",
-    "label": "insurance_company",
-    "_date": "11/17/1978",
+    "_date": "11/17/78",
     "object_type": "company",
     "source": "https://drive.google.com/file/d/1XPnwrQhEi-eXLRvmxeDk6k54f-EgvKm-/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_011/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_011",
-    "lunr_id": 10
+    "lunr_id": 13
   },
   {
     "pid": "gy_012",
     "location": "church_street",
-    "label": "store",
-    "_date": "11/18/1966",
+    "_date": "11/18/66",
     "object_type": "store",
     "source": "https://drive.google.com/file/d/1C_6gzwPPNHwk86RnBcn_1zu29HsNjltD/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_012/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_012",
-    "lunr_id": 11
+    "lunr_id": 14
   },
   {
     "pid": "gy_013",
     "location": "bel_air",
-    "label": "tobacco_company",
-    "_date": "11/19/1948",
+    "_date": "11/19/48",
     "object_type": "company",
     "source": "https://drive.google.com/file/d/1hq8GMSjY9Kn_njY3z9Ow6tqsnxiOrvs2/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_013/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_013",
-    "lunr_id": 12
+    "lunr_id": 15
   },
   {
     "pid": "gy_014",
     "location": "region_four",
-    "label": "brian_manufacturing_company",
-    "_date": "11/20/1938",
+    "_date": "11/20/38",
     "object_type": "store",
     "source": "https://drive.google.com/file/d/1uqXDf6ihk_-YtWvgFsFmPD44L8-yc2Ow/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_014/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_014",
-    "lunr_id": 13
+    "lunr_id": 16
   },
   {
     "pid": "gy_015",
     "location": "region_nine",
-    "label": "garnette_co",
     "_date": "3/18/2023",
     "object_type": "store",
     "source": "https://drive.google.com/file/d/1mkITKtCDRdU7Q4oyWYf0JgnRx-Us9jtg/view?usp=sharing",
@@ -195,6 +216,6 @@ layout: none
     "thumbnail": "/img/derivatives/iiif/images/gy_015/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_015",
-    "lunr_id": 14
+    "lunr_id": 17
   }
 ]

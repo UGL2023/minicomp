@@ -8,6 +8,21 @@ layout: none
   "label": "minicomp",
   "manifests": [
     {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/carifesta_001/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "carifesta_001"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/carifesta_002/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "carifesta_002"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/carifesta_003/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "carifesta_003"
+    },
+    {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_001/manifest.json",
       "@type": "sc:Manifest",
       "label": "gy_001"
