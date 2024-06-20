@@ -14,7 +14,7 @@ layout: home
 **Search Collection**
 `{% include search_box.html search='main' %}`
 
-  
+![alt text](image-2.png)  
 
 **Message from Ms Gwyneth George, University Librarian**    
                                                                                                                                                                       
