@@ -12,7 +12,8 @@ layout: home
     
   
 **Search Collection**
-{% include search_box.html search='main' %}
+{% include search_box.html search='main' %}  
+
 
 ![alt text](image-2.png)  
 
