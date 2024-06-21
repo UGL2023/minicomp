@@ -1,10 +1,10 @@
 ---
 pid: carifesta_001
-location: Guyana
-lablel: all_kinds_of_folk
+location: lrc
+lablel: All kinds of  folk
 _date: 5/25/1905
-tags: carifesta
-object_type: pdf
+keywords: carifesta
+object_type: manuscript
 source: https://drive.google.com/file/d/1G8obuEZpLQXqbIO7UW1z3iij9mmWqbUy/view?usp=drive_link
 order: '15'
 layout: minicomp_item
