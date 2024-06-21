@@ -15,7 +15,7 @@ permalink: /collections/
 
 ### Technician Services Division Collections
 
-{% include gallery.html collection='minicomp' field='location' value='crl' num_column=4 %}
+{% include gallery.html collection='minicomp' field='location' value='tsd' num_column=4 %}
 
 ### Learning Resource Department Collections
-{% include gallery.html collection='minicomp' field='location' value='lrc' num_column=4 %}
+{% include gallery.html collection='minicomp' field='location' value='lrc' num_column=4 %} changes pages.,md
