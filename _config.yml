@@ -1,5 +1,5 @@
 title: University of Guyana Library
-subtitle: 
+subtitle:
 author:
   name: Wax user
   email: your-email@domain.com
@@ -61,9 +61,8 @@ search:
 # submenu via `sub`.
 
 menu:
- 
-  - label: "Browse"
-    link: "/browse/"
+  - label: "Collections"
+    link: "/collections/"
   - label: "Search"
     link: "/search/"
   - label: "Exhibits"
@@ -74,7 +73,7 @@ menu:
         link: "/exhibits/references/"
       - label: "Subset Collection"
         link: "/exhibits/subset/"
-  - label: "CRL"      
+  - label: "CRL"
     sub:
       - label: "Image References"
         link: "/exhibits/references/"
@@ -83,7 +82,4 @@ menu:
   - label: "Help"
     link: "/help/"
   - label: "About"
-    link: "/about/" 
-
-    
-   
+    link: "/about/"

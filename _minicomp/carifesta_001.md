@@ -5,6 +5,7 @@ lablel: All kinds of  folk
 _date: 5/25/1905
 keywords: carifesta
 object_type: manuscript
+format: pdf
 source: https://drive.google.com/file/d/1G8obuEZpLQXqbIO7UW1z3iij9mmWqbUy/view?usp=drive_link
 order: '15'
 layout: minicomp_item

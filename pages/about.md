@@ -1,21 +1,40 @@
 ---
 layout: page
-title: Caribbean Research Library
+title: University of Guyana Library
 permalink: /about/
 ---
 
-The Caribbean Research Library (CRL) is a specialised reference collection of all types of materials both current and retrospective, which relate to Guyana and the Caribbean. It is the largest of its kind regionally, and its resources and services are open to organisations and individuals engaged in research on Guyana and the Caribbean.
+ **The Turkeyem Campus Library**  
 
+
+
+Located at Turkeyen Campus on the East Coast of Demerara provides students a number of services to help them get the most out of studying and research at University of Guyana.
+
+
+
+
+### Library Hours:
+Please be advised that the Library’s Opening and Closing hours with effect from January 29, 2024 until further notice will be as follows:
+
+Monday – Friday: 08:30 – 18:00h (6:00 p.m.)
+
+Saturday: 8:30 - 16:30 (4:30 p.m.)
  
+### During Vacation
+Closing times may be reduced or extended during the vacation periods.  Notices will be displayed on notice boards and on this web page under 'News' prior to the closure.
 
-The primary objective of the CRL is to be an important reference collection. It therefore aims to be as comprehensive as possible in the collection and acquisition of Caribbean material. This objective has been achieved to the extent that the CRL can claim to be the largest collection in the world on GUYANA. In scope, this unit covers the Guianas, Belize and the Caribbean islands, and in some instances, items on flora and fauna of South America. It contains over 30,000 books, pamphlets, manuscripts, newspapers, microfilms, maps, records, tapes and other miscellaneous items, some of which are both unique and rare. The immediate objectives of the division are as follows:
+The Library is closed for one (1) week in December, during the main Christmas holidays.
+
+###  On Public Holidays
+The Library is closed on all public holidays.
 
 
+**The Berbice Campus Library**
 
-To Collect And Disseminate Retrospective And Contemporary Information On A Wide Range Of Topics And Subjects – From The Creative Arts To The Sciences – On Guyana And The Caribbean.
-To Support Research And Teaching Activities Of The University Campus Including Nationals And Overseas Researchers On Guyanese Topics.
-To Encourage An Awareness Of The Importance Of Research On Caribbean, And Especially Guyanese Topics.
-To Preserve Our History And Cultural Heritage.
- 
+*The University of Guyana Berbice Campus Library (UGBCL) is a Branch of the main University Library at Turkeyen. The Berbice Campus Library (BCL) is headed by a Deputy University Librarian, who reports to the University Librarian at Turkeyen.
 
-Because CRL is a closed collection, users do not have access to the stacks. In order to find out what is available on a particular subject, the catalogues should be consulted. It is arranged by author, title, and subject and provides call numbers to books. Additionally, the collection of the CRL is partially automated and users may consult the online catalogue to retrieve information. A list of Serials / Journals held in CRL can be obtained on request at the Desk. Indexes of content pages of journals can also be obtained at the Desk. After identifying the item(s) you wish to consult, a reading room issue slip must be filled out and submitted to the staff. A reading room ticket must be submitted to borrow the material. Only two materials can be borrowed by a user at any one time. The loan period is 2 hours. Books may be renewed if necessary. 
+One of our main objectives is to support the instructional, information and research needs of the academic community. BCL therefore aims to provide a variety of resources, which support and extend the teaching and research programmes of the University of Guyana. It is hoped that the extramural function of the library will develop as the library progresses.*
+
+
+***External Users Access***
+*Non-university members are categorised as external users or visitors who may be granted access to the library resources. Such persons seeking Library access must direct their request to the Main Information Desk. Visitors requesting borrowing privileges must pay a cautionary deposit, complete an application and submit all relevant documents (photographs, references and identification). Once approval is granted, the person is registered and issued with a Visitor’s ID card*
