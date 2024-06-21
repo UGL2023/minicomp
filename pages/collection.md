@@ -6,4 +6,4 @@ permalink: /browse/
 ---  
 
 
-{% include gallery.html facet_by='object_type|location|keywords*' collection='minicomp' num_column=4 %}
+{% include gallery.html facet_by='location|object_type|keywords*' collection='minicomp' num_column=4 %}
