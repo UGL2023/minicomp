@@ -12,7 +12,6 @@ Located at Turkeyen Campus on the East Coast of Demerara provides students a num
 
 
 
-
 ### Library Hours:
 Please be advised that the Library’s Opening and Closing hours with effect from January 29, 2024 until further notice will be as follows:
 
