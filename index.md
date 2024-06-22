@@ -13,8 +13,6 @@ layout: home
   
 **Search Collection**
 
-
-
 ![alt text](image-2.png)  
 
 **Message from Ms Gwyneth George, University Librarian**    
