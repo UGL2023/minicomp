@@ -65,9 +65,9 @@ menu:
     link: "/collections/"
   - label: "Search"
     link: "/search/"
-  - label: "Caribbean Research Library Collections"
+  - label: "CRL Collections"
     link: "/sub/collections"
-  - label: "Reader Services Collections"
+  - label: "RSD Collections"
     link: "/sub/"    
   - label: "Exhibits"
     sub:
