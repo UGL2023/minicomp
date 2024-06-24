@@ -7,13 +7,17 @@
 #
 layout: home
 ---
-
+<br> 
+cha
 # University of Guyana Digital Library   
-    
-  
+ <br>    
+ <br> 
 
 
-![alt text](image-2.png)  
+![alt text](image-2.png) 
+
+<br>
+<br>  
 
 **Message from Ms Gwyneth George, University Librarian**    
 
