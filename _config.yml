@@ -65,6 +65,10 @@ menu:
     link: "/collections/"
   - label: "Search"
     link: "/search/"
+  - label: "Caribbean Research Library Collections"
+    link: "/sub/collections"
+  - label: "Reader Services Collections"
+    link: "/sub/"    
   - label: "Exhibits"
     sub:
       - label: "Parallax Images"
