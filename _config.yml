@@ -71,16 +71,10 @@ menu:
     link: "/sub/"    
   - label: "Exhibits"
     sub:
-      - label: "Parallax Images"
-        link: "/exhibits/parallax/"
-      - label: "Image References"
-        link: "/exhibits/references/"
       - label: "Subset Collection"
         link: "/exhibits/subset/"
-  - label: "CRL"
-    sub:
       - label: "Image References"
-        link: "/exhibits/references/"
+        link: "/exhibits/references/"    
   - label: "Items"
     link: "/items/"
   - label: "Help"
