@@ -22,4 +22,4 @@ layout: home
 delivery of information. Through this site, we aim to provide you with an array of information that keeps you in touch with information 
 sources, regardless of the medium in which it is packaged*
 
-# Browse Library Collections
+
