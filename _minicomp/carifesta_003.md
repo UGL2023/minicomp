@@ -1,6 +1,6 @@
 ---
 pid: carifesta_003
-location: tsd
+location: rsd
 lablel: history_ 0f_theatre_in_ guyana
 _date: '1800_2000'
 keywords: carifesta

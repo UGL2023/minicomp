@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Browse
+title: Browse Item
 gallery: True
-permalink: /collections/
+permalink: /item/
 ---
 
-### **University of Guyana Library Collections**
+
+{% include gallery.html facet_by='location|object_type|keywords*' collection='minicomp' num_column=8 %}
 
 
-{% include gallery.html facet_by='location|object_type|keywords*' collection='minicomp' num_column=6 %}

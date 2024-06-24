@@ -1,6 +1,6 @@
 ---
 pid: carifesta_002
-location: tsd
+location: rsd
 lablel: art_and_ society
 _date: 5/25/1905
 keywords: carifesta

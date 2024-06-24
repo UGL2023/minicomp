@@ -61,8 +61,8 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Collections"
-    link: "/collections/"
+  - label: "Item"
+    link: "/item/"
   - label: "Search"
     link: "/search/"
   - label: "CRL Collections"
@@ -75,8 +75,6 @@ menu:
         link: "/exhibits/subset/"
       - label: "Image References"
         link: "/exhibits/references/"    
-  - label: "Items"
-    link: "/items/"
   - label: "Help"
     link: "/help/"
   - label: "About"

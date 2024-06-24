@@ -16,7 +16,7 @@ layout: none
   },
   {
     "pid": "carifesta_002",
-    "location": "tsd",
+    "location": "rsd",
     "_date": "5/25/1905",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1gLVFe0pMNuOgH-jrrQwiSeXTd59g7zhZ/view?usp=sharing",
@@ -28,7 +28,7 @@ layout: none
   },
   {
     "pid": "carifesta_003",
-    "location": "tsd",
+    "location": "rsd",
     "_date": "1800_2000",
     "object_type": "poem",
     "source": "https://drive.google.com/file/d/1jKhIo-Hmuwv86GfKc9k12MXo83itzDno/view?usp=drive_link",
@@ -54,7 +54,7 @@ layout: none
     "pid": "gy_002",
     "location": "crl",
     "_date": "1950",
-    "object_type": "book",
+    "object_type": "exhibit",
     "source": "https://drive.google.com/file/d/18YrPaKrfVMyVPkrJnPExFy04-KMTYNsZ/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_002/full/250,/0/default.jpg",
@@ -64,7 +64,7 @@ layout: none
   },
   {
     "pid": "gy_003",
-    "location": "tsd",
+    "location": "crl",
     "_date": "1950",
     "object_type": "thesis",
     "source": "https://drive.google.com/file/d/1S8FQrUpAYxdJ1cMCoVCAG3f5DQ4Lo0dt/view?usp=sharing",
@@ -78,7 +78,7 @@ layout: none
     "pid": "gy_004",
     "location": "rsd",
     "_date": "08/09/70",
-    "object_type": "book",
+    "object_type": "exhibit",
     "source": "https://drive.google.com/file/d/1ctS_83erzt3tpGJ-Eyae61eAP2ihCbFQ/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_004/full/250,/0/default.jpg",
@@ -88,7 +88,7 @@ layout: none
   },
   {
     "pid": "gy_005",
-    "location": "rsg",
+    "location": "rsd",
     "_date": "01/10/60",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1Az8cRba3BaerlTR5ZJRTAOP7bNRzILC-/view?usp=sharing",
@@ -136,7 +136,7 @@ layout: none
   },
   {
     "pid": "gy_009",
-    "location": "tsd",
+    "location": "rsd",
     "_date": "11/15/45",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1oAq9M-btGhGlrZKzC7jtm1TwpxNgWzEm/view?usp=sharing",
@@ -172,7 +172,7 @@ layout: none
   },
   {
     "pid": "gy_012",
-    "location": "rsd",
+    "location": "crl",
     "_date": "11/18/66",
     "object_type": "legal deposit",
     "source": "https://drive.google.com/file/d/1C_6gzwPPNHwk86RnBcn_1zu29HsNjltD/view?usp=sharing",
@@ -184,7 +184,7 @@ layout: none
   },
   {
     "pid": "gy_013",
-    "location": "tsd",
+    "location": "rsd",
     "_date": "11/19/48",
     "object_type": "legal deposit",
     "source": "https://drive.google.com/file/d/1hq8GMSjY9Kn_njY3z9Ow6tqsnxiOrvs2/view?usp=sharing",
@@ -196,7 +196,7 @@ layout: none
   },
   {
     "pid": "gy_014",
-    "location": "lrc",
+    "location": "rsd",
     "_date": "11/20/38",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1uqXDf6ihk_-YtWvgFsFmPD44L8-yc2Ow/view?usp=sharing",
@@ -208,7 +208,7 @@ layout: none
   },
   {
     "pid": "gy_015",
-    "location": "lrc",
+    "location": "crl",
     "_date": "3/18/2023",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1mkITKtCDRdU7Q4oyWYf0JgnRx-Us9jtg/view?usp=sharing",
