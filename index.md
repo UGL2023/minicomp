@@ -7,8 +7,6 @@
 #
 layout: home
 ---
-<br> 
-
 # University of Guyana Digital Library   
  <br>    
  
