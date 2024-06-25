@@ -7,13 +7,16 @@
 #
 layout: home
 ---
+
 # University of Guyana Digital Library   
- <br>  
+    
+  
+**Search Collection**
 
 
-![alt text](image-2.png) 
 
-<br>
+![alt text](image-2.png)  
+
 **Message from Ms Gwyneth George, University Librarian**    
                                                                                                                                                                       
 *The Library remains committed to serving you, our users, to the improvement of our services and to the improvement of the access and  

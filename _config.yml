@@ -24,14 +24,13 @@ collections:
     output: true
   minicomp: # name of collection
     output: true # makes sure pages are output as html files
-layout: "minicomp_item" # the layout for the pages to use
-metadata:
-  source: "minicomp.csv" # path to the metadata file within `_data`
-  images:
-   source: "raw_images/minicomp" # path to the directory of images within `_data`
-
-
- 
+    layout: "minicomp_item" # the layout for the pages to use
+    metadata:
+      source: "minicomp.csv" # path to the metadata file within `_data`
+    images:
+      source: "raw_images/minicomp" # path to the directory of images within `_data`
+    pdf:
+      source: "raw_pdf/minicomp"
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -62,20 +61,24 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Item"
-    link: "/item/"
+  - label: "Collections"
+    link: "/collections/"
   - label: "Search"
     link: "/search/"
-  - label: "CRL Collections"
-    link: "/sub/collections"
-  - label: "RSD Collections"
-    link: "/sub/"    
   - label: "Exhibits"
     sub:
+      - label: "Parallax Images"
+        link: "/exhibits/parallax/"
+      - label: "Image References"
+        link: "/exhibits/references/"
       - label: "Subset Collection"
         link: "/exhibits/subset/"
+  - label: "CRL"
+    sub:
       - label: "Image References"
-        link: "/exhibits/references/"    
+        link: "/exhibits/references/"
+  - label: "Items"
+    link: "/items/"
   - label: "Help"
     link: "/help/"
   - label: "About"
