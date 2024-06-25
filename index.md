@@ -8,8 +8,8 @@
 layout: home
 ---
 # University of Guyana Digital Library   
- <br>    
- 
+ <br>  
+
 
 ![alt text](image-2.png) 
 
