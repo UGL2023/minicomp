@@ -4,7 +4,7 @@ sitemap: false
 
 /* open-sans-300 - latin */
 @font-face {
-  font-family: "Open Sans Light";
+  font-family: "Verdana";
   font-style: normal;
   font-weight: 300;
   src: url('{{ "/assets/fonts/OpenSans/open-sans-v18-latin-300.eot" | absolute_url }}'); /* IE9 Compat Modes */
@@ -38,13 +38,13 @@ $heading-font: "Open Sans Light", "Verdana", "sans-serif";
 /* Colors */
 
 $light-text: #000708;
-$light-link: #0c035a;
+$light-link: #010007;
 $light-link-hover: #ffffff;
-$dark-background: #cc5500;
-$medium-background: #f3a771;
+$dark-background: #f16907d5;
+$medium-background: #e70d18;
 $light-background: #0c0000;
 $dark-text: #444444;
-$code: #3c1553;
+$code: #090dc9;
 $muted-text: #777777;
 
 /* Image Heights */
