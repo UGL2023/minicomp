@@ -1,5 +1,5 @@
 title: Home
-subtitle: 
+subtitle:
 author:
   name: Wax user
   email: your-email@domain.com
@@ -9,7 +9,6 @@ description:
   Google search results) and in your feed.xml site description.
 url: "https://ugl2023.github.io"
 baseurl: "/minicomp"
-
 # --------------------------------------------------------------
 # COLLECTION SETTINGS
 # --------------------------------------------------------------
