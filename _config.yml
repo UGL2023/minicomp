@@ -1,5 +1,5 @@
 title: Home
-subtitle:
+subtitle: 
 author:
   name: Wax user
   email: your-email@domain.com
@@ -30,7 +30,11 @@ collections:
     images:
       source: "raw_images/minicomp" # path to the directory of images within `_data`
     pdf:
-      source: "raw_pdf/minicomp"
+      source: "raw_images/minicomp"  # path to the directory of images within `_data`
+      
+
+
+ 
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -61,25 +65,21 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Collections"
-    link: "/collections/"
-  - label: "Search"
-    link: "/search/"
-  - label: "Exhibits"
-    sub:
-      - label: "Parallax Images"
-        link: "/exhibits/parallax/"
-      - label: "Image References"
-        link: "/exhibits/references/"
-      - label: "Subset Collection"
-        link: "/exhibits/subset/"
-  - label: "CRL"
-    sub:
-      - label: "Image References"
-        link: "/exhibits/references/"
   - label: "Items"
     link: "/items/"
-  - label: "Help"
-    link: "/help/"
+  - label: "Search"
+    link: "/search/"
+  - label: "CRL Collections"
+    link: "/sub/collections"
+  - label: "RSD Collections"
+    link: "/sub/"    
+  - label: "Exhibits"
+    sub:
+      - label: "Subset Collection"
+        link: "/exhibits/subset/"
+      - label: "Image References"
+        link: "/exhibits/references/"    
+  - label: "Contact Us"
+    link: "/contact us/"
   - label: "About"
     link: "/about/"
