@@ -42,4 +42,3 @@ Literary Awards for Guyanese and Caribbean authors of fiction, poetry and drama
     Manuscripts, Diaries
 
 
-[Logo]: https://https://drive.google.com/file/d/132HiIYdVmCeu--y8AbfFPecjzUsjSe6Z/view?usp=sharing
