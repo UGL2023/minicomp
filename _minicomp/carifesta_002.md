@@ -1,11 +1,11 @@
 ---
 pid: carifesta_002
-location: tsd
-lablel: art_and_ society
+artist: Unknown
+location: RSD
+label: Art and Society
 _date: 5/25/1905
 keywords: carifesta
 object_type: staff paper
-format: pdf
 source: https://drive.google.com/file/d/1gLVFe0pMNuOgH-jrrQwiSeXTd59g7zhZ/view?usp=sharing
 order: '16'
 layout: minicomp_item

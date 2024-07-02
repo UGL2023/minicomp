@@ -4,7 +4,8 @@ layout: none
 [
   {
     "pid": "carifesta_001",
-    "location": "lrc",
+    "location": "RSD",
+    "label": "All kinds of  folk",
     "_date": "5/25/1905",
     "object_type": "manuscript",
     "source": "https://drive.google.com/file/d/1G8obuEZpLQXqbIO7UW1z3iij9mmWqbUy/view?usp=drive_link",
@@ -16,7 +17,8 @@ layout: none
   },
   {
     "pid": "carifesta_002",
-    "location": "tsd",
+    "location": "RSD",
+    "label": "Art and Society",
     "_date": "5/25/1905",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1gLVFe0pMNuOgH-jrrQwiSeXTd59g7zhZ/view?usp=sharing",
@@ -28,7 +30,8 @@ layout: none
   },
   {
     "pid": "carifesta_003",
-    "location": "tsd",
+    "location": "RSD",
+    "label": "History of Theature",
     "_date": "1800_2000",
     "object_type": "poem",
     "source": "https://drive.google.com/file/d/1jKhIo-Hmuwv86GfKc9k12MXo83itzDno/view?usp=drive_link",
@@ -40,7 +43,8 @@ layout: none
   },
   {
     "pid": "gy_001",
-    "location": "crl",
+    "location": "CRL",
+    "label": "Parliament Building",
     "_date": "1950",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1j6m0FBmedufZFj47_Yrz019IOnnXXiJX/view?usp=sharing",
@@ -52,9 +56,10 @@ layout: none
   },
   {
     "pid": "gy_002",
-    "location": "crl",
+    "location": "CRL",
+    "label": "Lighthouse",
     "_date": "1950",
-    "object_type": "book",
+    "object_type": "exhibit",
     "source": "https://drive.google.com/file/d/18YrPaKrfVMyVPkrJnPExFy04-KMTYNsZ/view?usp=sharing",
     "collection": "minicomp",
     "thumbnail": "/img/derivatives/iiif/images/gy_002/full/250,/0/default.jpg",
@@ -64,7 +69,8 @@ layout: none
   },
   {
     "pid": "gy_003",
-    "location": "tsd",
+    "location": "CRL",
+    "label": "Parade Ground",
     "_date": "1950",
     "object_type": "thesis",
     "source": "https://drive.google.com/file/d/1S8FQrUpAYxdJ1cMCoVCAG3f5DQ4Lo0dt/view?usp=sharing",
@@ -76,7 +82,8 @@ layout: none
   },
   {
     "pid": "gy_004",
-    "location": "rsd",
+    "location": "CRL",
+    "label": "Sugar Estate",
     "_date": "08/09/70",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1ctS_83erzt3tpGJ-Eyae61eAP2ihCbFQ/view?usp=sharing",
@@ -88,7 +95,8 @@ layout: none
   },
   {
     "pid": "gy_005",
-    "location": "rsg",
+    "location": "CRL",
+    "label": "Church",
     "_date": "01/10/60",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1Az8cRba3BaerlTR5ZJRTAOP7bNRzILC-/view?usp=sharing",
@@ -100,7 +108,8 @@ layout: none
   },
   {
     "pid": "gy_006",
-    "location": "crl",
+    "location": "CRL",
+    "label": "Hight Street",
     "_date": "10/12/50",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1OoMfOKtDQEg6uOBenxBgnbqcncRHk3aD/view?usp=drive_link",
@@ -112,7 +121,8 @@ layout: none
   },
   {
     "pid": "gy_007",
-    "location": "crl",
+    "location": "CRL",
+    "label": "Water Street",
     "_date": "11/13/60",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1VxxbDqDuaKKET-h3Ran3-C8kLvbopAf1/view?usp=sharing",
@@ -124,7 +134,8 @@ layout: none
   },
   {
     "pid": "gy_008",
-    "location": "crl",
+    "location": "CRL",
+    "label": "Roman Cartholic",
     "_date": "11/14/40",
     "object_type": "staff paper",
     "source": "https://drive.google.com/file/d/1FIDouBH5JxeXNUYVbgDuCF2KvMzX0Rxf/view?usp=sharing",
@@ -136,7 +147,8 @@ layout: none
   },
   {
     "pid": "gy_009",
-    "location": "tsd",
+    "location": "CRL",
+    "label": "Military Hospital",
     "_date": "11/15/45",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1oAq9M-btGhGlrZKzC7jtm1TwpxNgWzEm/view?usp=sharing",
@@ -148,7 +160,8 @@ layout: none
   },
   {
     "pid": "gy_010",
-    "location": "crl",
+    "location": "RSD",
+    "label": "Royal Bank of Canada",
     "_date": "11/16/76",
     "object_type": "legal deposit",
     "source": "https://drive.google.com/file/d/1qdvi88l4wk_jKARJDWheYmQ28bBQGUYK/view?usp=sharing",
@@ -160,7 +173,8 @@ layout: none
   },
   {
     "pid": "gy_011",
-    "location": "crl",
+    "location": "RSD",
+    "label": "Insurance Company",
     "_date": "11/17/78",
     "object_type": "legal deposit",
     "source": "https://drive.google.com/file/d/1XPnwrQhEi-eXLRvmxeDk6k54f-EgvKm-/view?usp=sharing",
@@ -172,7 +186,8 @@ layout: none
   },
   {
     "pid": "gy_012",
-    "location": "rsd",
+    "location": "RSD",
+    "label": "Store",
     "_date": "11/18/66",
     "object_type": "legal deposit",
     "source": "https://drive.google.com/file/d/1C_6gzwPPNHwk86RnBcn_1zu29HsNjltD/view?usp=sharing",
@@ -184,7 +199,8 @@ layout: none
   },
   {
     "pid": "gy_013",
-    "location": "tsd",
+    "location": "RSD",
+    "label": "Tobacco Company",
     "_date": "11/19/48",
     "object_type": "legal deposit",
     "source": "https://drive.google.com/file/d/1hq8GMSjY9Kn_njY3z9Ow6tqsnxiOrvs2/view?usp=sharing",
@@ -196,7 +212,8 @@ layout: none
   },
   {
     "pid": "gy_014",
-    "location": "lrc",
+    "location": "RSD",
+    "label": "Manufacturing Company",
     "_date": "11/20/38",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1uqXDf6ihk_-YtWvgFsFmPD44L8-yc2Ow/view?usp=sharing",
@@ -208,7 +225,8 @@ layout: none
   },
   {
     "pid": "gy_015",
-    "location": "lrc",
+    "location": "RSD",
+    "label": "Garnette Company",
     "_date": "3/18/2023",
     "object_type": "book",
     "source": "https://drive.google.com/file/d/1mkITKtCDRdU7Q4oyWYf0JgnRx-Us9jtg/view?usp=sharing",
