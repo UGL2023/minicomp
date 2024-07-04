@@ -19,9 +19,9 @@ baseurl: "/minicomp"
 # ~> https://jekyllrb.com/docs/collections/
 
 collections:
-  exhibits:
+   exhibits:
     output: true
-  minicomp: # name of collection
+   minicomp: # name of collection
     output: true # makes sure pages are output as html files
     layout: "minicomp_item" # the layout for the pages to use
     metadata:
@@ -64,6 +64,24 @@ search:
 # submenu via `sub`.
 
 menu:
+  - label: "CRL Collection"
+    sub:
+     - label: "Carifesta Collection"
+       link: "/carifesta/"  
+     - label: "A.W.B Long Collection"
+       link: "/long/"
+     - label: "A.J Seymour Collectiion"
+       link: "/seymour/"   
+     - label: "Who is Who Collection"
+       link: "/who/"  
+     - label: "Rare Book Collection"
+       link: "/rare/"  
+     - label: "Norman E Cameron Collection"
+       link: "/cameron/"
+     - label: "Cecil Roth Collection"
+       link: "/roth/"       
+     - label: "Union of Cultural Clubs Collection"
+       link: "/clubs/"    
   - label: "Items"
     link: "/items/"
   - label: "Search"
