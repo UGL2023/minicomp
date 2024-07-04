@@ -9,6 +9,8 @@ The Caribbean Research Library (CRL) is a specialised reference collection of al
 
 **Collections Maintain in the Caribbean Research Library**
 
+* **Carifesta** - 
+  
 * **Cecil Roth** - *Collection of Manuscripts*  
 
 * **A.W.B. LONG** - *Collection on the Social History of Guyana*
