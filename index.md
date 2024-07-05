@@ -8,5 +8,4 @@
 layout: home
 ---    
 
-![alt text](Logo.png) 
 
