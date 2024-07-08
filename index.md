@@ -30,11 +30,12 @@ layout: home
  <br>
 
 *The Library remains committed to serving you, our users, to the improvement of our services and to the improvement of the access and delivery of information*.  <br> 
- <br>
 
-*Through this website, we aim to provide you with an array of information that keeps you in touch with information sources, regardless of the medium
 
-in which it is packaged*.
+*Through this website, we aim to provide you with an array of information that keeps you in touch with information sources, regardless of the medium*
+
+*in which it is packaged*
+
  <br>
 
 *We trust that you will find the information on this site interesting. We welcome any comments and suggestions that would contribute to enhancing this website*.
