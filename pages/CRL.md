@@ -2,7 +2,7 @@
 layout: page
 title: Caribbean Research Library
 gallery: True
-permalink: /sub/collections/
+permalink: /crl/
 ---
 
 

@@ -30,7 +30,6 @@ collections:
       source: "raw_images/minicomp" # path to the directory of images within `_data`
     pdf:
       source: "raw_images/minicomp"  # path to the directory of images within `_data`
-      
 
 
  
@@ -51,6 +50,7 @@ search:
         content: true # whether or not to index page content
         fields: # the metadata fields to index
           - location
+          - artist
           - label
           - _date
           - object_type
@@ -87,9 +87,9 @@ menu:
   - label: "Search"
     link: "/search/"
   - label: "CRL Collections"
-    link: "/sub/collections"
+    link: "/crl/"
   - label: "RSD Collections"
-    link: "/sub/"    
+    link: "/rsd/"    
   - label: "Exhibits"
     sub:
       - label: "Subset Collection"

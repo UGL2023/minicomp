@@ -2,7 +2,7 @@
 layout: page
 title: Reader Services Collections
 gallery: True
-permalink: /sub/
+permalink: /rsd/
 ---
 
 
