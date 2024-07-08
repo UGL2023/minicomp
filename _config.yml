@@ -64,10 +64,12 @@ search:
 # submenu via `sub`.
 
 menu:
+  - label: "Carifesta"
+    sub:
+    - label: "Guyana 1972"
+      link: "/1972/" 
   - label: "CRL Collection"
     sub:
-     - label: "Carifesta"
-       link: "/carifesta/"  
      - label: "A.W.B Long"
        link: "/long/"
      - label: "A.J Seymour"

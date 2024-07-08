@@ -1,8 +1,7 @@
 ---
 layout: exhibit
-title: 'Caribbean Research Library Collections'
+title: 'University of Guyana Library' 
 author: University of Guyana Library
-publish_date: 2024/06/19
 permalink: /exhibits/references/
 ---
 {% include parallax_image.html collection='minicomp' pid='gy_012' y='20%' %}
