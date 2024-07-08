@@ -7,9 +7,3 @@
 #
 layout: home
 ---    
-
-<<<<<<< HEAD
-
-=======
->>>>>>> e13bc363f4228bca52df9a7d9cccf6a6b97689d8
-
