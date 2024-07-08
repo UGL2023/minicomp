@@ -8,4 +8,3 @@ permalink: /seymour/
 --- 
 
 
-
