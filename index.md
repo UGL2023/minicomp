@@ -14,7 +14,6 @@ layout: home
 
 *The University of Guyana Library will strive to support the teaching and research activities of the University. It will provide the necessary human resources*
  <br>
- <br>
 
 *and Information and Communications Technology (ICT) to meet the requirements of the electronic age, and serve as the beacon of academic research,* <br>
 
