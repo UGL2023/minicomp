@@ -8,7 +8,7 @@
 layout: home
 ---    
 
-## **Mission Statement**
+### **Mission Statement**
 
  <br>
 
@@ -25,7 +25,7 @@ layout: home
 
 ![alt](image-2.png)
 
-## **Message from Mrs Gwyneth George, University Librarian**
+### **Message from Mrs Gwyneth George, University Librarian**
 
  <br>
 
