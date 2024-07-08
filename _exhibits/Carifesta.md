@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: exhibit
 title: Carifesta
 gallery: true
 author: University of Guyana Library
