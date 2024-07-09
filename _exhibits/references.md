@@ -1,7 +1,7 @@
 ---
 layout: exhibit
-title: 'Caribbean Research Library Collections'
-author: University of Guyana Library
+title: 'University of Guyana Library Exhibits'
+author: Caribbean Research Library
 publish_date: 2024/06/19
 permalink: /exhibits/references/
 ---

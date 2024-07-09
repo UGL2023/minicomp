@@ -64,6 +64,10 @@ search:
 # submenu via `sub`.
 
 menu:
+  - label: "Items"
+    link: "/items/"
+  - label: "Search"
+    link: "/search/"   
   - label: "CRL Collection"
     sub:
      - label: "Carifesta"
@@ -82,10 +86,6 @@ menu:
        link: "/roth/"       
      - label: "Union of Cultural Clubs"
        link: "/clubs/"    
-  - label: "Items"
-    link: "/items/"
-  - label: "Search"
-    link: "/search/"
   - label: "CRL Collections"
     link: "/crl/"
   - label: "RSD Collections"
