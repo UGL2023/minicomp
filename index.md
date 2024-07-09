@@ -8,13 +8,14 @@
 
 layout: home
 ---
+
 #### **Mission Statement**
 
  <br>
 
 ##### *The University of Guyana Library will strive to support the teaching and research activities of the University. It will provide the necessary human resources and Information and Communications Technology (ICT) to meet the requirements of the electronic age, and serve as the beacon of academic research, both locally and internationally*.
 
-##### *![alt](image-2.png)*
+##### *![alt](ug.png)*
 
 ### **Message from Mrs Gwyneth George, University Librarian**
 
