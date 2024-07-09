@@ -64,14 +64,18 @@ search:
 # submenu via `sub`.
 
 menu:
+<<<<<<< HEAD
   - label: "Items"
     link: "/items/"
   - label: "Search"
     link: "/search/"   
+=======
+
+>>>>>>> c1cc4d4181c56f3da72e8f53d9b8682c9779df49
   - label: "CRL Collection"
     sub:
      - label: "Carifesta"
-       link: "/carifesta/"  
+       link: "/carifesta/"
      - label: "A.W.B Long"
        link: "/long/"
      - label: "A.J Seymour"
