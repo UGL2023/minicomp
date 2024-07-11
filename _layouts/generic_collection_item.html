@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {% assign links = site[page.collection] | sort: 'order' | map: 'url' %}
 {% for link in links %}
   {% if link == page.url %}
