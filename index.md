@@ -9,9 +9,7 @@
 layout: home
 ---
 
-{% include parallax_image.html collection='minicomp' pid='gy_017' y='100%'%}
-{% include parallax_image.html collection='minicomp' pid='gy_017' y='100%'%}
-
+<img src="c.png" class="center" width="1200" height="400">
 
 #### **Mission Statement**
 
