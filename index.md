@@ -16,7 +16,7 @@ layout: home
 
 <img src="c.png" class="center" width="1200" height="400">
 
-{% include parallax_image.html collection='minicomp' pid='gy_016'  %}
+{% include parallax_image.html collection='minicomp' pid='gy_016' 200%}
 
 
 
