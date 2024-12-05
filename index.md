@@ -9,18 +9,15 @@
 layout: home
 ---
 
+{% include parallax_image.html collection='minicomp' pid='gy_016' 200%}
+
+
 #### **Mission Statement**
 
 
 ##### *The University of Guyana Library will strive to support the teaching and research activities of the University. It will provide the necessary human resources and Information and Communications Technology (ICT) to meet the requirements of the electronic age, and serve as the beacon of academic research, both locally and internationally*.
 
-<img src="c.png" class="center" width="1200" height="400">
-
-{% include parallax_image.html collection='minicomp' pid='gy_016' 200%}
-
-
-{% include collection_gallery.html facet_by='image' collection='minicomp' %}
-
+{% include parallax_image.html collection='minicomp' pid='gy_017' 200%}
 
 
 
