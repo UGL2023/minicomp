@@ -10,7 +10,7 @@ layout: home
 ---
 
 
-{% include collection_gallery.html facet_by='object_type' collection='minicomp' %}
+{% include parallax_image.html facet_by='object_type' collection='minicomp' %}
 
 
 #### **Mission Statement**
