@@ -19,7 +19,7 @@ layout: home
 {% include parallax_image.html collection='minicomp' pid='gy_016' 200%}
 
 
-{% include collection_gallery.html facet_by='object_type' collection='minicomp' %}
+{% include collection_gallery.html facet_by='image' collection='minicomp' %}
 
 
 
