@@ -9,7 +9,7 @@
 layout: home
 ---
 
-<img src="c.png" class="center" width="2000" height="500">
+<img src="c.png" class="left" width="2000" height="500">
 
 #### **Mission Statement**
 
