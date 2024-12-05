@@ -19,6 +19,9 @@ layout: home
 {% include parallax_image.html collection='minicomp' pid='gy_016' 200%}
 
 
+{% include collection_gallery.html facet_by='object_type' collection='minicomp' %}
+
+
 
 
 ### **Message from the University Librarian**
