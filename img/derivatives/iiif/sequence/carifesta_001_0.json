@@ -1,3 +1,6 @@
+---
+layout: none
+---
 {
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/carifesta_001_0.json",
   "@type": "sc:Sequence",
