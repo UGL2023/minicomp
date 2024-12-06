@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Browse
+title: Browse Items
 gallery: True
-permalink: /browse items/
+permalink: /items/
 ---
 
 
