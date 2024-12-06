@@ -2,7 +2,7 @@
 layout: page
 title: Browse 
 gallery: True
-permalink: /browse items/
+permalink: /browse/
 ---
 
 
