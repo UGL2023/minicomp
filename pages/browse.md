@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Browse 
+title: Items
 gallery: True
 permalink: /browse/
 ---
