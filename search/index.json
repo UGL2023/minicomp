@@ -5,7 +5,7 @@ layout: none
   {
     "pid": "carifesta_001",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "All kinds of  folk",
     "_date": "5/25/1905",
     "object_type": "manuscript",
@@ -19,7 +19,7 @@ layout: none
   {
     "pid": "carifesta_002",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Art and Society",
     "_date": "5/25/1905",
     "object_type": "staff paper",
@@ -33,7 +33,7 @@ layout: none
   {
     "pid": "carifesta_003",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "History of Theature",
     "_date": "1800_2000",
     "object_type": "poem",
@@ -173,7 +173,7 @@ layout: none
   {
     "pid": "gy_010",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Royal Bank of Canada",
     "_date": "11/16/1976",
     "object_type": "legal deposit",
@@ -187,7 +187,7 @@ layout: none
   {
     "pid": "gy_011",
     "artist": "Someone ",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Insurance Company",
     "_date": "11/17/1978",
     "object_type": "legal deposit",
@@ -201,7 +201,7 @@ layout: none
   {
     "pid": "gy_012",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Store",
     "_date": "11/18/1966",
     "object_type": "legal deposit",
@@ -215,7 +215,7 @@ layout: none
   {
     "pid": "gy_013",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Tobacco Company",
     "_date": "11/19/1948",
     "object_type": "legal deposit",
@@ -229,7 +229,7 @@ layout: none
   {
     "pid": "gy_014",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Manufacturing Company",
     "_date": "11/20/1938",
     "object_type": "book",
@@ -243,7 +243,7 @@ layout: none
   {
     "pid": "gy_015",
     "artist": "Unknown",
-    "location": "RSD",
+    "location": "CRL",
     "label": "Garnette Company",
     "_date": "3/18/2023",
     "object_type": "book",
@@ -256,7 +256,7 @@ layout: none
   },
   {
     "pid": "gy_016",
-    "label": "University of Guyana Digital Library",
+    "label": "University of Guyana Library",
     "object_type": "image",
     "source": "https://drive.google.com/file/d/1-5SKIe1hZEEW2eKCG-fz13zAD3EAkMh7/view?usp=drive_link",
     "collection": "minicomp",
@@ -276,39 +276,42 @@ layout: none
     "lunr_id": 19
   },
   {
-    "pid": "ur_0001",
+    "pid": "ur_001",
     "artist": "British Guiana",
     "location": "RSD",
     "label": "Civil Appeal No. 10",
     "_date": "1974",
-    "object_type": "vehicle_accident",
-    "source": "https://drive.google.com/file/d/1j7ILb7IzePpFbu87b2Iscx7_TtJjO6_3/view?usp=sharing",
+    "object_type": "vehicle_ccident",
+    "source": "https://drive.google.com/file/d/1-zqM9pITVP8wPL0ivUUcrSMPNxEUBj5X/view?usp=drive_link",
     "collection": "minicomp",
     "content": " ",
-    "permalink": "/minicomp/ur_0001",
+    "permalink": "/minicomp/ur_001",
     "lunr_id": 20
   },
   {
-    "pid": "ur_0002",
-    "location": "British Guiana",
+    "pid": "ur_002",
+    "artist": "British Guiana",
+    "location": "RSD",
     "label": "Civil Appeal No.9",
     "_date": "1974",
-    "object_type": "wages_dispte",
-    "source": "https://drive.google.com/file/d/16LcbNr2MWbMOp0phH4GI53o3mFKzqV2b/view?usp=sharing",
+    "object_type": "wages dispte",
+    "source": "https://drive.google.com/file/d/1-pKFCf0VWvfpqr_whu-xXocJ647I1dS6/view?usp=drive_link",
     "collection": "minicomp",
     "content": " ",
-    "permalink": "/minicomp/ur_0002",
+    "permalink": "/minicomp/ur_002",
     "lunr_id": 21
   },
   {
-    "pid": "ur_0003",
-    "location": "British Guiana",
+    "pid": "ur_003",
+    "artist": "British Guiana",
+    "location": "RSD",
     "label": "Civil Appeal No.7",
     "_date": "1974",
-    "source": "https://drive.google.com/file/d/1HewKlsL5WU0m8zST9Pmsw4wXfQAhwkmv/view?usp=sharing",
+    "object_type": "murder",
+    "source": "https://drive.google.com/file/d/1-y7f8rJiHIB2DAiClPs5UaUxsvJE11tP/view?usp=drive_link",
     "collection": "minicomp",
     "content": " ",
-    "permalink": "/minicomp/ur_0003",
+    "permalink": "/minicomp/ur_003",
     "lunr_id": 22
   }
 ]

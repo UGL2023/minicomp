@@ -1,7 +1,7 @@
 ---
 pid: carifesta_001
 artist: Unknown
-location: RSD
+location: CRL
 label: All kinds of  folk
 _date: 5/25/1905
 keywords: carifesta

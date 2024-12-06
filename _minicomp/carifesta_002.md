@@ -1,7 +1,7 @@
 ---
 pid: carifesta_002
 artist: Unknown
-location: RSD
+location: CRL
 label: Art and Society
 _date: 5/25/1905
 keywords: carifesta
