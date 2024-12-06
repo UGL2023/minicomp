@@ -282,8 +282,9 @@ layout: none
     "label": "Civil Appeal No. 10",
     "_date": "1974",
     "object_type": "vehicle_ccident",
-    "source": "https://drive.google.com/file/d/1-zqM9pITVP8wPL0ivUUcrSMPNxEUBj5X/view?usp=drive_link",
+    "source": "https://drive.google.com/file/d/1-y7f8rJiHIB2DAiClPs5UaUxsvJE11tP/view?usp=drive_link",
     "collection": "minicomp",
+    "thumbnail": "/img/derivatives/iiif/images/gy_018_00/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_018",
     "lunr_id": 20
@@ -297,6 +298,7 @@ layout: none
     "object_type": "wages dispte",
     "source": "https://drive.google.com/file/d/1-pKFCf0VWvfpqr_whu-xXocJ647I1dS6/view?usp=drive_link",
     "collection": "minicomp",
+    "thumbnail": "/img/derivatives/iiif/images/gy_019_0/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_019",
     "lunr_id": 21
@@ -308,8 +310,9 @@ layout: none
     "label": "Civil Appeal No.7",
     "_date": "1974",
     "object_type": "murder",
-    "source": "https://drive.google.com/file/d/1-y7f8rJiHIB2DAiClPs5UaUxsvJE11tP/view?usp=drive_link",
+    "source": "https://drive.google.com/file/d/1-zqM9pITVP8wPL0ivUUcrSMPNxEUBj5X/view?usp=drive_link",
     "collection": "minicomp",
+    "thumbnail": "/img/derivatives/iiif/images/gy_020_00/full/250,/0/default.jpg",
     "content": " ",
     "permalink": "/minicomp/gy_020",
     "lunr_id": 22

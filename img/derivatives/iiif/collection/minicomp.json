@@ -106,6 +106,21 @@ layout: none
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_017/manifest.json",
       "@type": "sc:Manifest",
       "label": "gy_017"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_018/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "gy_018"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_019/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "gy_019"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_020/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "gy_020"
     }
   ]
 }
