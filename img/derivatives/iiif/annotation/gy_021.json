@@ -14,8 +14,8 @@ layout: none
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/gy_021",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
-    "width": 1280,
-    "height": 720
+    "width": 823,
+    "height": 461
   },
   "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/gy_021.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"

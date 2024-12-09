@@ -5,8 +5,8 @@ layout: none
   "@type": "sc:Canvas",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/gy_021.json",
   "label": "front",
-  "width": 2560,
-  "height": 1440,
+  "width": 1646,
+  "height": 922,
   "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/gy_021/full/250,/0/default.jpg",
   "images": [
     {
@@ -22,8 +22,8 @@ layout: none
           "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/gy_021",
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
-        "width": 1280,
-        "height": 720
+        "width": 823,
+        "height": 461
       },
       "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/gy_021.json"
     }
