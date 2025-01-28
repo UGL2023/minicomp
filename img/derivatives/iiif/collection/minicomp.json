@@ -121,6 +121,11 @@ layout: none
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_021/manifest.json",
       "@type": "sc:Manifest",
       "label": "gy_021"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/gy_21/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "gy_21"
     }
   ]
 }

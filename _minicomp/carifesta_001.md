@@ -3,7 +3,7 @@ pid: carifesta_001
 artist: Unknown
 location: CRL
 label: All kinds of  folk
-_date: 5/25/1905
+date: '2005-05-25'
 keywords: carifesta
 object_type: manuscript
 source: https://drive.google.com/file/d/1G8obuEZpLQXqbIO7UW1z3iij9mmWqbUy/view?usp=drive_link

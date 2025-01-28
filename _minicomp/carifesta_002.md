@@ -3,7 +3,7 @@ pid: carifesta_002
 artist: Unknown
 location: CRL
 label: Art and Society
-_date: 5/25/1905
+date: '2005-05-25'
 keywords: carifesta
 object_type: staff paper
 source: https://drive.google.com/file/d/1gLVFe0pMNuOgH-jrrQwiSeXTd59g7zhZ/view?usp=sharing
