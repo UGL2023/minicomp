@@ -14,7 +14,7 @@ permalink: /references/
 ### Independene- 
    
 
-{% include parallax_image.html collection='minicomp' pid='gy_12' y='20%' %}
+{% include parallax_image.html collection='minicomp' pid='gy_08' y='20%' %}
 ### Cheddie Jagan 
 ##### *A Guyanese politician and dentist who was first elected Chief Minister in 1953 and later Premier of British Guiana from 1961 to 1964. He later served as President of Guyana from 1992 to his death in 1997. In 1953, he became the first Hindu and person of Indian descent to be a head of government outside of the Indian subcontinent.*
     
