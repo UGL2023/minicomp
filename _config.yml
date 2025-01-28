@@ -54,7 +54,7 @@ search:
           - label
           - _date
           - object_type
-          - source
+        
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
