@@ -64,7 +64,7 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Items"
+  - label: "Collection Items"
     link: "/items/"
   - label: "Search"
     link: "/search/"   
