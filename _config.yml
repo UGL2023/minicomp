@@ -49,7 +49,6 @@ search:
       minicomp:
         content: true # whether or not to index page content
         fields: # the metadata fields to index
-          - Abstract
           - location
           - author
           - artist
