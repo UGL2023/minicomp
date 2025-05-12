@@ -6,7 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 
-layout:
+layout: home
+---
 {% assign placeholder = include.placeholder | default: 'UGL Collections... ' %}
 
 <img src="image.png" class="center" width="Auto" height="500"/>
