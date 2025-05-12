@@ -6,11 +6,10 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 
-layout: home
----
+layout:
 {% assign placeholder = include.placeholder | default: 'UGL Collections... ' %}
 
-<img src="image.png" class="center" width="1100" height="500"/>
+<img src="image.png" class="center" width="Auto" height="500"/>
 
 #### **Mission Statement**
 ##### *The University of Guyana Library will strive to support the teaching and research activities of the University. It will provide the necessary human resources and Information and Communications Technology (ICT) to meet the requirements of the electronic age, and serve as the beacon of academic research, both locally and internationally*.
