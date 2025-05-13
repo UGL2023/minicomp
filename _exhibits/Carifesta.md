@@ -8,4 +8,4 @@ permalink: /carifesta/
 --- 
 
 
-{% include gallery.html collection='minicomp' field='labeln' value='CRL' facet_by='object_type' num_column=4 %}
+{% include gallery.html collection='minicomp' field='label' value='CRL' facet_by='object_type' num_column=3 %}
