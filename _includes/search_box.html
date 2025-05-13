@@ -2,6 +2,7 @@
 {% assign key = include.search | default: 'main' %}
 {% assign config = site.search[key] %}
 {% assign index = config.index | absolute_url %}
+
 {%- capture fields -%}
   {%- for collection in config.collections -%}
     {%- for field in collection[1].fields -%}
@@ -11,13 +12,14 @@
 {%- endcapture -%}
 {% assign fields = fields | split: '|||' | uniq %}
 
+
 <div class='search-block'>
   <div class='input-group'>
     <input type='text' class='form-control' id='search' name='x' placeholder='{{ placeholder }}'>
   </div>
   <div id='results'></div>
 </div>
-
+{% include parallax_image.html collection='minicomp' pid='gy_016' y='100%'%}
 <script type='text/javascript' src="{{ '/assets/js/elasticlunr.min.js' | absolute_url }}"></script>
 <script type='text/javascript' src="{{ '/assets/js/search-ui.js' | absolute_url }}"></script>
 <script type='text/javascript'>
