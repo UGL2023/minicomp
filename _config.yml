@@ -70,7 +70,7 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Collection Items"
+  - label: "Browse By"
     link: "/items/"
   - label: "Search"
     link: "/search/"   
