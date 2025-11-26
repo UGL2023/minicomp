@@ -13,7 +13,7 @@ permalink: /contact us/
 
 <br> 
 
-### **Shelly Headley**
+### **Shelley Headley**
 #### Head Reader's Service Division  
 #### Tel# 592 222-4931
 [ rsd.library@uog.edu.gy](rsd.library@uog.edu.gy)
