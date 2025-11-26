@@ -92,8 +92,6 @@ menu:
        link: "/roth/"       
      - label: "Union of Cultural Clubs"
        link: "/clubs/"    
-  - label: "CRL Collections"
-    link: "/crl/"
   - label: "RSD Collections"
     link: "/rsd/"    
   - label: "Exhibits"
