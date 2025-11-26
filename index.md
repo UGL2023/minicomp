@@ -6,11 +6,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 
-layout: home
+layout: UoG-Digital Library
 ---
 
 
-<img src="image.png" class="Auto" width="1500" height="500"/>
+
 
 #### **Mission Statement**
 ##### *The University of Guyana Library will strive to support the teaching and research activities of the University. It will provide the necessary human resources and Information and Communications Technology (ICT) to meet the requirements of the electronic age, and serve as the beacon of academic research, both locally and internationally*.
