@@ -71,7 +71,7 @@ search:
 
 menu:
   - label: "Browse By"
-    link: "/items/"
+    link: "/browse/"
   - label: "Search"
     link: "/search/"   
   - label: "CRL Collection"
