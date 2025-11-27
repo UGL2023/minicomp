@@ -70,13 +70,13 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Browse By"
+  - label: "Browse"
     link: "/browse/"
   - label: "Search"
     link: "/search/"   
   - label: "CRL Collection"
     sub:
-     - label: "Carifesta"
+     - label: "Carifesta"changes
        link: "/carifesta/"
      - label: "A.W.B Long"
        link: "/long/"
@@ -92,8 +92,8 @@ menu:
        link: "/roth/"       
      - label: "Union of Cultural Clubs"
        link: "/clubs/"    
-     - label: "RSD Collections"
-       sub:
+  - label: "RSD Collections"
+    sub:
      - label: "Law"
        link: "/cases/"
   - label: "Exhibits"
