@@ -73,7 +73,7 @@ menu:
  
   - label: "Search"
     link: "/search/"   
-  - label: "Items"
+  - label: "Collections"
     link: "/items/"   
   - label: "Caribbean Research Library"
     sub:  
