@@ -72,9 +72,7 @@ search:
 menu:
  
   - label: "Search"
-    link: "/search/"   
-  - label: "Collections"
-    link: "collections/"   
+    link: "/search/"    
   - label: "Caribbean Research Library"
     sub:  
         - label: "Carifesta"
