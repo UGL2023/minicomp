@@ -74,7 +74,7 @@ menu:
   - label: "Search"
     link: "/search/"   
   - label: "Collections"
-    link: "/browse by/"   
+    link: "collections/"   
   - label: "Caribbean Research Library"
     sub:  
         - label: "Carifesta"
@@ -93,7 +93,7 @@ menu:
           link: "/roth/"       
         - label: "Union of Cultural Clubs"
           link: "/clubs/" 
-  - label: "Reader Services Collections"      
+  - label: "Reader Services"      
     sub:      
         - label: "Law"
           link: "/cases/"
