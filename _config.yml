@@ -75,7 +75,7 @@ menu:
     link: "/search/"   
   - label: "Browse"
     link: "/bro/"
-  - label: "CRL Collection"
+  - label: "Collections"
     sub:
      - label: "Carifesta"
        link: "/carifesta/"
