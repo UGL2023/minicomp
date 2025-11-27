@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Readers Services
-permalink: /rsd/
+permalink: /cases/
 --- 
 
 
