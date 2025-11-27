@@ -92,8 +92,10 @@ menu:
        link: "/roth/"       
      - label: "Union of Cultural Clubs"
        link: "/clubs/"    
-  - label: "RSD Collections"
-    link: "/rsd/"    
+     - label: "RSD Collections"
+       sub:
+     - label: "Law"
+       link: "/cases/"
   - label: "Exhibits"
     sub:
       - label: "Exhibits"
