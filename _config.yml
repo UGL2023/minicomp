@@ -1,5 +1,5 @@
 title: Home
-subtitle: 
+subtitle: University of Guyana Digital Collections 
 author:
   name: Wax user
   email: your-email@domain.com
@@ -23,7 +23,7 @@ collections:
     output: true
    minicomp: # name of collection
     output: true # makes sure pages are output as html files
-    layout: "minicomp_item" # the layout for the pages to use
+     layout: "minicomp_item" # the layout for the pages to use
     metadata:
       source: "minicomp.csv" # path to the metadata file within `_data`
     images:
@@ -70,10 +70,11 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: "Browse"
-    link: "/browse/"
+ 
   - label: "Search"
     link: "/search/"   
+  - label: "Browse"
+    link: "/bro/"
   - label: "CRL Collection"
     sub:
      - label: "Carifesta"
