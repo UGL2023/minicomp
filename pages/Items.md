@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Items
+title: Browse By
 permalink: /browse/
 ---

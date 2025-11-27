@@ -74,12 +74,9 @@ menu:
   - label: "Search"
     link: "/search/"   
   - label: "Items"
-    link: "/browse/"   
-  - label: "Collections"
-    sub:
-     - label: "Caribbean Research Library"
-     - label: "Reader Services Collections"
-       sub:  
+    link: "/items/"   
+  - label: "Caribbean Research Library"
+    sub:  
         - label: "Carifesta"
           link: "/carifesta/"
         - label: "A.W.B Long"
@@ -95,7 +92,9 @@ menu:
         - label: "Cecil Roth"
           link: "/roth/"       
         - label: "Union of Cultural Clubs"
-          link: "/clubs/"   
+          link: "/clubs/" 
+  - label: "Reader Services Collections"      
+    sub:      
         - label: "Law"
           link: "/cases/"
   - label: "Exhibits"
