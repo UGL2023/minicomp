@@ -95,11 +95,11 @@ menu:
         - label: "Cecil Roth"
           link: "/roth/"       
         - label: "Union of Cultural Clubs"
-          link: "/clubs/"    
-  - label: "Reader Services Collections"
-    sub:
-     - label: "Law"
-       link: "/cases/"
+          link: "/clubs/"   
+          sub:       
+        - label: "Reader Services Collections"
+        - label: "Law"
+          link: "/cases/"
   - label: "Exhibits"
     sub:
       - label: "Exhibits"
