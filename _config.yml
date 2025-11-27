@@ -74,7 +74,7 @@ menu:
   - label: "Search"
     link: "/search/"   
   - label: "Collections"
-    link: "/items/"   
+    link: "/browse by/"   
   - label: "Caribbean Research Library"
     sub:  
         - label: "Carifesta"
@@ -99,8 +99,6 @@ menu:
           link: "/cases/"
   - label: "Exhibits"
     sub:
-      - label: "Exhibits"
-        link: "/exhibits"
       - label: "Exhibit Reference"
         link: "/references/"    
   - label: "Contact Us"
