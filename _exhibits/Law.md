@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: Law
+title: Unreported Civil Cases
 gallery: true
 author: University of Guyana Library
 publish_date: 2025/11/27
