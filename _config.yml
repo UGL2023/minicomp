@@ -76,7 +76,7 @@ menu:
     link: "/search/"   
   - label: "CRL Collection"
     sub:
-     - label: "Carifesta"changes
+     - label: "Carifesta"
        link: "/carifesta/"
      - label: "A.W.B Long"
        link: "/long/"
