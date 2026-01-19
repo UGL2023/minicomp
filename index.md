@@ -14,7 +14,6 @@ layout: home
 
 
 
-{% include parallax_image.html collection='minicomp' pid='gy_016' y='100%'%}
 
 
 
