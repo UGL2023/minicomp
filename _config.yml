@@ -75,6 +75,8 @@ menu:
     link: "/search/"    
   - label: "Caribbean Research Library"
     sub:  
+        - label: "Sandbach Tinne"
+          link: "/tinne/"
         - label: "Carifesta"
           link: "/carifesta/"
         - label: "A.W.B Long"
