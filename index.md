@@ -12,9 +12,55 @@ title: Home
 
 <div markdown="0">
 
-<h1 style="color: black; text-align:center;">
-University of Guyana Library<br>
-Digital Collections</h1>
+<!-- Load Google Font in <head> -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+<!-- Heading with separate spans for each line -->
+<h1 class="scroll-heading">
+  <span class="line1">University of Guyana Library</span><br>
+  <span class="line2">Digital Collections</span>
+</h1>
+
+<!-- CSS for animation -->
+<style>
+.scroll-heading {
+  color: #CC5500;
+  text-align: center;
+  font-size: 60px;          
+  font-weight: 900;         
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Common styles for both lines */
+.scroll-heading span {
+  display: inline-block;     /* allows animation */
+  opacity: 0;               
+  transform: translateY(-100px);
+  animation: slideIn 1s forwards;
+}
+
+/* Add delay for second line */
+.scroll-heading .line1 {
+  animation-delay: 0.5s;    
+}
+
+.scroll-heading .line2 {
+  animation-delay: 1.2s;    
+}
+
+/* Keyframes for sliding in */
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+
+
+
 
 <div class="carousel">
   <div class="carousel-inner">
@@ -41,8 +87,8 @@ Digital Collections</h1>
 <style>
 .carousel {
   width: 100%;
-  max-width: 800px;
-  height: 50vh;
+  max-width:900px;
+  height: 60vh;
   margin: 40px auto;
   overflow: hidden;
   position: relative;
@@ -170,3 +216,29 @@ carouselEl.addEventListener('touchend', () => {
 // Initialize
 showSlide(0);
 </script>
+
+
+ <!-- Load Google Font in <head> (if not already loaded) -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+<!-- Paragraph with styled font -->
+<p class="library-text">
+  The Library remains committed to serving you, our users, to the improvement of our services and to the improvement of the access and delivery of information. Through this website, we aim to provide you with an array of information that keeps you in touch with information sources, regardless of the medium in which it is packaged.
+</p>
+
+<p class="library-text">
+  We trust that you will find the information on this site interesting. We welcome any comments and suggestions that would contribute to enhancing this website.
+</p>
+
+<!-- CSS for paragraph styling -->
+<style>
+.library-text {
+  font-family: 'Montserrat', sans-serif; /* sets font */
+  font-size: 14px;                         /* readable size */
+  line-height: 1.6;                        /* spacing between lines */
+  color: #333;                             /* dark gray text for readability */
+  max-width: 1000px;                        /* optional: keeps paragraph narrow for easy reading */
+  margin: 20px auto;                        /* centers block with space above/below */
+  text-align: justify;                      /* optional: makes edges aligned */
+}
+</style>
