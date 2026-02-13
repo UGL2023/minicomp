@@ -12,6 +12,8 @@ title: Home
 
 <div markdown="0">
 
+<br>
+
 <!-- Load Google Font in <head> -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 
@@ -26,7 +28,7 @@ title: Home
 .scroll-heading {
   color: #CC5500;
   text-align: center;
-  font-size: 60px;          
+  font-size: 40px;          
   font-weight: 900;         
   font-family: 'Montserrat', sans-serif;
   line-height: 1.2;
@@ -236,7 +238,7 @@ showSlide(0);
   font-family: 'Montserrat', sans-serif; /* sets font */
   font-size: 14px;                         /* readable size */
   line-height: 1.6;                        /* spacing between lines */
-  color: #333;                             /* dark gray text for readability */
+  color: #000000 ;                       /* dark gray text for readability */
   max-width: 1000px;                        /* optional: keeps paragraph narrow for easy reading */
   margin: 20px auto;                        /* centers block with space above/below */
   text-align: justify;                      /* optional: makes edges aligned */
