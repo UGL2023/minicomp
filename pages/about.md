@@ -11,6 +11,10 @@ permalink: /about/
 <br>
 
 ### **Collections Maintained by Caribbean Research Library** ###
+<br>
+
+* **Sandbach Tinne** - *The Sandbach Tinne Collection comprises business and personal letters, accounts, invoices, shipping and insurance documents, portraits, etc., from the business partners, family and business associates of the firm Sandbach Tinne & Co*
+<br>
 
 <br>
 
