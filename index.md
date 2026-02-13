@@ -46,8 +46,8 @@ Digital Collections</h1>
   margin: 40px auto;
   overflow: hidden;
   position: relative;
-  border: 1px solid orange;
-  border-radius: 5px;
+  border: 0px solid orange;
+  border-radius: 0px;
 }
 
 .carousel-inner {
