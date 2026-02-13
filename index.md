@@ -9,9 +9,11 @@
 layout: default
 title: Home
 ---
+<h1 style="orange">University of Guyana Library Digital Collections</h1>
+
+<div markdown="0">
 
 <style>
-/* Carousel Container */
 .carousel {
   width: 100%;
   max-width: 800px;
@@ -21,14 +23,12 @@ title: Home
   border-radius: 10px;
 }
 
-/* Slides */
 .carousel-inner {
   display: flex;
   width: 300%;
   animation: slide 12s infinite;
 }
 
-/* Each Slide */
 .carousel-item {
   width: 100%;
   flex-shrink: 0;
@@ -41,16 +41,10 @@ title: Home
   display: block;
 }
 
-/* Animation */
 @keyframes slide {
-  0%   { transform: translateX(0%); }
-  33%  { transform: translateX(0%); }
-
-  38%  { transform: translateX(-100%); }
-  66%  { transform: translateX(-100%); }
-
-  71%  { transform: translateX(-200%); }
-  100% { transform: translateX(-200%); }
+  0%,33%   { transform: translateX(0%); }
+  38%,66%  { transform: translateX(-100%); }
+  71%,100% { transform: translateX(-200%); }
 }
 </style>
 
@@ -60,18 +54,19 @@ title: Home
   <div class="carousel-inner">
 
     <div class="carousel-item">
-      <img src="/assets/images/1.jpg" alt= 1">
+      <img src="{{ '/assets/images/slide1.jpg' | relative_url }}" alt="Slide 1">
     </div>
 
     <div class="carousel-item">
-      <img src="/assets/images/2.png" alt=" 2">
+      <img src="{{ '/assets/images/slide2.jpg' | relative_url }}" alt="Slide 2">
     </div>
 
     <div class="carousel-item">
-      <img src="/assets/images/3.jpg" alt=" 3">
+      <img src="{{ '/assets/images/slide3.jpg' | relative_url }}" alt="Slide 3">
     </div>
 
   </div>
 
 </div>
- 
+
+</div>
