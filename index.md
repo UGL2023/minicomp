@@ -15,47 +15,6 @@ title: Home
 <h1 style="color: black; text-align:center;">
 University of Guyana Library<br>
 Digital Collections</h1>
-
-<style>
-.carousel {
-  width: 800px;
-  height: 400px;
-  margin: 40px auto;
-  overflow: hidden;
-  border: 4px solid red;
-}
-
-.carousel-inner {
-  display: flex;
-  width: 300%;
-  height: 100%;
-  animation: slide 9s infinite;
-}
-
-.carousel-item {
-  width: 100%;
-  height: 100%;
-  flex-shrink: 0;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Animation */
-@keyframes slide {
-  0%   { transform: translateX(0%); }
-  33%  { transform: translateX(0%); }
-  38%  { transform: translateX(-100%); }
-  66%  { transform: translateX(-100%); }
-  71%  { transform: translateX(-200%); }
-  100% { transform: translateX(-200%); }
-}
-</style>
-
-
 <div class="carousel">
   <div class="carousel-inner">
     <div class="carousel-item">
@@ -69,3 +28,49 @@ Digital Collections</h1>
     </div>
   </div>
 </div>
+
+<style>
+.carousel {
+  width: 800px;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+  position: relative;
+  border: 4px solid red;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideFade 9s linear infinite;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Slide + fade animation */
+@keyframes slideFade {
+  0%   { opacity: 0; transform: translateX(100%); }
+  10%  { opacity: 1; transform: translateX(0%); }
+  30%  { opacity: 1; transform: translateX(0%); }
+  40%  { opacity: 0; transform: translateX(-100%); }
+  100% { opacity: 0; transform: translateX(-100%); }
+}
+
+/* stagger animations for each slide */
+.carousel-item:nth-child(1) { animation-delay: 0s; }
+.carousel-item:nth-child(2) { animation-delay: 3s; }
+.carousel-item:nth-child(3) { animation-delay: 6s; }
+</style>
