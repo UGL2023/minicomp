@@ -12,9 +12,9 @@ title: Home
 
 <div markdown="0">
 
-<h1 style="color: orange; text-align:center;">
-University of Guyana Library Digital Collections
-</h1>
+<h1 style="color: black; text-align:center;">
+University of Guyana Library<br>
+Digital Collections</h1>
 
 <style>
 .carousel {
@@ -57,23 +57,15 @@ University of Guyana Library Digital Collections
 
 
 <div class="carousel">
-
   <div class="carousel-inner">
-
     <div class="carousel-item">
-      <img src="{{ site.baseurl }}/assets/images/slide1.jpg">
+      <img src="{{ '/assets/images/slide1.jpg' | relative_url }}" alt="slide1">
     </div>
-
     <div class="carousel-item">
-      <img src="{{ site.baseurl }}/assets/images/slide2.jpg">
+      <img src="{{ '/assets/images/slide2.jpg' | relative_url }}" alt="slide2">
     </div>
-
     <div class="carousel-item">
-      <img src="{{ site.baseurl }}/assets/images/slide3.jpg">
+      <img src="{{ '/assets/images/slide3.jpg' | relative_url }}" alt="slide3">
     </div>
-
   </div>
-
-</div>
-
 </div>
