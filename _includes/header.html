@@ -1,17 +1,26 @@
 <header class="site-header">
   <nav class="navbar navbar-expand-md navbar-dark custom-banner fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="{{ '/' | relative_url }}">
-        {{ site.title | escape }}
-        <span class="subtitle">{{ site.subtitle | escape }}</span>
+      <!-- Brand / Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
+        <!-- PNG Logo -->
+        <img src="{{ '/assets/images/home.jpg' | relative_url }}" 
+             alt="{{ site.title | escape }} Logo" 
+             style="height: 50px; width: auto; margin-right: 10px;">
+        <!-- Site title and subtitle -->
+        <div>
+          {{ site.title | escape }}
+          <span class="subtitle">{{ site.subtitle | escape }}</span>
+        </div>
       </a>
 
-      <!-- Collapse button -->
+      <!-- Mobile collapse button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
               aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">&#9776;</span>
       </button>
 
+      <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
           {% for item in site.menu %}
@@ -40,12 +49,21 @@
 </header>
 
 <style>
-/* Navbar background */
+/* --- Navbar Base --- */
 .custom-banner {
   background-color: #033b03;  /* Dark green */
+  transition: background-color 0.3s ease;
+  padding: 0.5rem 1rem;
 }
 
-/* Navbar links */
+/* Brand subtitle */
+.navbar-brand .subtitle {
+  display: block;
+  font-size: 1rem;
+  color: #ffffffaa;
+}
+
+/* --- Links --- */
 .hover-text {
   color: #FFFFFF;
   transition: all 0.3s ease;
@@ -53,23 +71,23 @@
 
 .hover-text:hover {
   color: #FFFFFF;
-  background-color: #CC5500; /* burnt orange hover */
+  background-color: #CC5500; /* Burnt orange hover */
   border-radius: 4px;
   padding: 2px 6px;
 }
 
-/* Dropdown menu background */
+/* --- Dropdown Menu --- */
 .custom-banner .dropdown-menu,
 .custom-banner .fade-dropdown {
-  background-color: #033b03; /* same dark green as navbar */
-  border: #CC5500; /* remove border */
-  opacity: 0; /* start hidden */
-  transform: translateY(10px); /* slight move for smooth effect */
+  background-color: #033b03; /* same as navbar */
+  border: none;
+  opacity: 0;
+  transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  display: block; /* keep block for animation */
+  display: block;
 }
 
-/* Show dropdown with fade */
+/* Show dropdown on hover or when open */
 .custom-banner .dropdown.show .dropdown-menu,
 .custom-banner .dropdown:hover .fade-dropdown {
   opacity: 1;
@@ -82,10 +100,23 @@
   transition: all 0.3s ease;
 }
 
-/* Dropdown link hover effect */
+/* Dropdown link hover */
 .custom-banner .dropdown-menu .dropdown-item:hover {
-  background-color: #CC5500; /* burnt orange hover same as main nav */
+  background-color: #CC5500;
   color: white;
   border-radius: 4px;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 767px) {
+  .custom-banner .dropdown-menu {
+    opacity: 1 !important;  /* always show on mobile toggle */
+    transform: translateY(0) !important;
+    position: static;
+  }
+
+  .navbar-brand img {
+    height: 35px; /* slightly smaller on mobile */
+  }
 }
 </style>

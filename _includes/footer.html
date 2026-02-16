@@ -1,38 +1,66 @@
-<footer class="banner text-center" style="position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000; background-color: #064420; color: #ffffff;">
-  <div class="container">
-    <div class="row justify-content-center py-2">
-      <div class="col-lg-3 col-12 mb-1">
-        <a href="https://uglibrary.uog.edu.gy/" class="footer-link">University of Guyana Library 2026</a>
-      </div>
-      <div class="col-lg-3 col-12 mb-1">
-        Built with <a href="https://github.com/minicomp/wax/" class="footer-link">Minicomp/Wax</a>
-      </div>
-      <div class="col-lg-3 col-12 mb-1">
-        <a href="https://minicomp.github.io/wax/credits/" class="footer-link">Credits</a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <small>&copy; 2026 University of Guyana Library</small>
-      </div>
+<footer class="footer" style="position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000; background-color: #064420; color: #ffffff;">
+  <div class="container py-2">
+    <div class="footer-flex">
+      <a href="https://uglibrary.uog.edu.gy/" class="footer-link">University of Guyana Library 2026</a>
+      <span class="separator">|</span>
+      Built with <a href="https://github.com/minicomp/wax/" class="footer-link">Minicomp/Wax</a>
+      <span class="separator">|</span>
+      <a href="https://minicomp.github.io/wax/credits/" class="footer-link">Credits</a>
+      <span class="separator">|</span>
+      <small>&copy; 2026 University of Guyana Library</small>
     </div>
   </div>
 </footer>
 
 <style>
+  /* Ensure page content is not hidden behind the fixed footer */
   body {
-    padding-bottom: 40px; /* prevents content from being hidden behind footer */
+    padding-bottom: 60px; /* Adjust based on footer height */
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Footer flex container */
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap; /* allows wrapping on very small screens */
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* space between items */
+    font-size: 0.9rem;
   }
 
   /* Footer links styling */
   .footer-link {
-    color: #ffffff; /* white text */
+    color: #ffffff;
     text-decoration: none;
-    transition: color 0.2s ease;
+    font-weight: 500;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
   }
 
   .footer-link:hover {
-    color: #cc5500; /* burnt orange on hover */
+    color: #cc5500; /* burnt orange */
     text-decoration: underline;
+  }
+
+  /* Separator styling */
+  .separator {
+    color: #ffffff;
+  }
+
+  /* Optional shadow for footer */
+  footer {
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 500px) {
+    .footer-flex {
+      font-size: 0.8rem;
+      gap: 5px;
+    }
+    .separator {
+      display: none; /* hide separators on very small screens */
+    }
   }
 </style>

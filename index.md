@@ -11,10 +11,9 @@ title: Home
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 
   <!-- ==========================
-       Header with Responsive Logo
+       Header
   ========================== -->
   <header class="site-header">
-    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="UG Library Logo" class="logo">
     <h1 class="scroll-heading">
       <span class="line1">University of Guyana Library</span><br>
       <span class="line2">Digital Collections</span>
@@ -23,23 +22,11 @@ title: Home
 
   <style>
     /* ==========================
-       Header & Logo
+       Header
     ========================== */
     .site-header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;          /* Wrap on smaller screens */
-      margin: 20px 0;
       text-align: center;
-    }
-
-    .logo {
-      width: clamp(80px, 15%, 150px); /* Responsive width */
-      height: auto;                   /* Maintain aspect ratio */
-      margin-right: 20px;             /* Space between logo and heading */
-      display: inline-block;
-      vertical-align: middle;
+      margin: 40px 0;
     }
 
     /* ==========================
@@ -51,7 +38,6 @@ title: Home
       font-weight: 700;
       font-size: clamp(24px, 5vw, 36px);
       margin: 0;
-      flex: 1;                        /* Take remaining space */
       text-shadow: 2px 2px 6px rgba(204,85,0,0.6);
     }
 
@@ -151,7 +137,7 @@ title: Home
     .dot.active { background: #CC5500; }
 
     /* ==========================
-       Library Text
+       Library Description
     ========================== */
     .library-text {
       font-family: 'Montserrat', sans-serif;
@@ -184,6 +170,9 @@ title: Home
     <div class="dots"></div>
   </div>
 
+  <!-- ==========================
+       Carousel Script
+  ========================== -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const slides = document.querySelectorAll('.carousel-item');
@@ -192,11 +181,10 @@ title: Home
       const dotsContainer = document.querySelector('.dots');
       let index = 0;
 
-      // Create dots dynamically
       slides.forEach((_, i) => {
         const dot = document.createElement('span');
         dot.classList.add('dot');
-        if(i === 0) dot.classList.add('active');
+        if (i === 0) dot.classList.add('active');
         dot.addEventListener('click', () => { goToSlide(i); resetTimer(); });
         dotsContainer.appendChild(dot);
       });
@@ -219,7 +207,6 @@ title: Home
       nextBtn.addEventListener('click', () => { nextSlide(); resetTimer(); });
       prevBtn.addEventListener('click', () => { prevSlide(); resetTimer(); });
 
-      // Autoplay
       let timer = setInterval(nextSlide, 5000);
       function resetTimer() { clearInterval(timer); timer = setInterval(nextSlide, 5000); }
 
