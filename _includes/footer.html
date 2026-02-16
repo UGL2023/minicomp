@@ -1,15 +1,38 @@
-<footer class="banner text-center">
-  <div class="container p-2">
-  <div class="row">
-    <div class="col-lg-1">
-    </div> <a href= https://uglibrary.uog.edu.gy/ >University of Guyana Library 2026</a>
-    <div class="col-lg-1">      
-    </div>  Built with <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
-    <div class="col-lg-1">
-    </div> <a href="https://minicomp.github.io/wax/credits/" >Credits</a>
-      <span><small>
+<footer class="banner text-center" style="position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000; background-color: #064420; color: #ffffff;">
+  <div class="container">
+    <div class="row justify-content-center py-2">
+      <div class="col-lg-3 col-12 mb-1">
+        <a href="https://uglibrary.uog.edu.gy/" class="footer-link">University of Guyana Library 2026</a>
+      </div>
+      <div class="col-lg-3 col-12 mb-1">
+        Built with <a href="https://github.com/minicomp/wax/" class="footer-link">Minicomp/Wax</a>
+      </div>
+      <div class="col-lg-3 col-12 mb-1">
+        <a href="https://minicomp.github.io/wax/credits/" class="footer-link">Credits</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <small>&copy; 2026 University of Guyana Library</small>
+      </div>
     </div>
   </div>
-</div>
-</p>
 </footer>
+
+<style>
+  body {
+    padding-bottom: 40px; /* prevents content from being hidden behind footer */
+  }
+
+  /* Footer links styling */
+  .footer-link {
+    color: #ffffff; /* white text */
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .footer-link:hover {
+    color: #cc5500; /* burnt orange on hover */
+    text-decoration: underline;
+  }
+</style>

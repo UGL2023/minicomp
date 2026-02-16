@@ -1,44 +1,35 @@
-
-<header class="site-header"><strong><strong><strong><strong>
-<nav class="navbar navbar-expand-md banner">
-    <a class="title navbar-brand" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-        <span class="subtitle navbar-text">{{ site.subtitle | escape }}</span>
-  
-        <header class="site-header">
-  <!-- Site title and subtitle -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<header class="site-header">
+  <nav class="navbar navbar-expand-md navbar-dark custom-banner fixed-top">
     <div class="container">
-      <!-- Brand / Title -->
       <a class="navbar-brand" href="{{ '/' | relative_url }}">
         {{ site.title | escape }}
         <span class="subtitle">{{ site.subtitle | escape }}</span>
       </a>
 
-      <!-- Collapse button for mobile -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">&#9776;</span>
       </button>
 
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
           {% for item in site.menu %}
             {% if item.sub %}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}"
-                   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle hover-text" href="#" id="dropdown{{ forloop.index }}" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{ item.label }}
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+                <div class="dropdown-menu fade-dropdown" aria-labelledby="dropdown{{ forloop.index }}">
                   {% for sub in item.sub %}
-                    <a class="dropdown-item" href="{{ sub.link | absolute_url }}">{{ sub.label }}</a>
+                    <a class="dropdown-item hover-text" href="{{ sub.link | absolute_url }}">{{ sub.label }}</a>
                   {% endfor %}
                 </div>
               </li>
             {% else %}
               <li class="nav-item">
-                <a class="nav-link" href="{{ item.link | absolute_url }}">{{ item.label }}</a>
+                <a class="nav-link hover-text" href="{{ item.link | absolute_url }}">{{ item.label }}</a>
               </li>
             {% endif %}
           {% endfor %}
@@ -48,35 +39,53 @@
   </nav>
 </header>
 
-        
-  <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-    aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon">&#9776;</span></button>
+<style>
+/* Navbar background */
+.custom-banner {
+  background-color: #033b03;  /* Dark green */
+}
 
-  <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-                
-    <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-            {% for item in site.menu %}
-                {% if item.sub %}
-                <li class='nav-item dropdown'>
-                <a class='nav-link dropdown-toggle' href='#' id='wax-{{ item.label | slugify }}-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                {{ item.label }}
-                </a>
-                <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
-                {% for sub in item.sub %}
-                <a class='dropdown-item' href='{{ sub.link | absolute_url }}'>{{ sub.label }}</a>
-                {% endfor %}
-                </div>
-                </li>
-                {% else %}
-                <li class='nav-item'>
-                    <a class='nav-link' href='{{ item.link | absolute_url }}'>{{ item.label }}</a>
-                </li>
-                {% endif %}
-            {% endfor %}                
-            </ul>
-        </div>
-    </nav>
-</header>
+/* Navbar links */
+.hover-text {
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.hover-text:hover {
+  color: #FFFFFF;
+  background-color: #CC5500; /* burnt orange hover */
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Dropdown menu background */
+.custom-banner .dropdown-menu,
+.custom-banner .fade-dropdown {
+  background-color: #033b03; /* same dark green as navbar */
+  border: #CC5500; /* remove border */
+  opacity: 0; /* start hidden */
+  transform: translateY(10px); /* slight move for smooth effect */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: block; /* keep block for animation */
+}
+
+/* Show dropdown with fade */
+.custom-banner .dropdown.show .dropdown-menu,
+.custom-banner .dropdown:hover .fade-dropdown {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dropdown links */
+.custom-banner .dropdown-menu .dropdown-item {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Dropdown link hover effect */
+.custom-banner .dropdown-menu .dropdown-item:hover {
+  background-color: #CC5500; /* burnt orange hover same as main nav */
+  color: white;
+  border-radius: 4px;
+}
+</style>

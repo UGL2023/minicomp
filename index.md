@@ -1,246 +1,248 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
-
 layout: default
 title: Home
 ---
 
 <div markdown="0">
 
-<br>
+  <!-- ==========================
+       Google Font
+  ========================== -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 
-<!-- Load Google Font in <head> -->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- ==========================
+       Header with Responsive Logo
+  ========================== -->
+  <header class="site-header">
+    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="UG Library Logo" class="logo">
+    <h1 class="scroll-heading">
+      <span class="line1">University of Guyana Library</span><br>
+      <span class="line2">Digital Collections</span>
+    </h1>
+  </header>
 
-<!-- Heading with separate spans for each line -->
-<h1 class="scroll-heading">
-  <span class="line1">University of Guyana Library</span><br>
-  <span class="line2">Digital Collections</span>
-</h1>
+  <style>
+    /* ==========================
+       Header & Logo
+    ========================== */
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;          /* Wrap on smaller screens */
+      margin: 20px 0;
+      text-align: center;
+    }
 
-<!-- CSS for animation -->
-<style>
-.scroll-heading {
-  color: #CC5500;
-  text-align: center;
-  font-size: 40px;          
-  font-weight: 900;         
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.2;
-  margin: 0;
-}
+    .logo {
+      width: clamp(80px, 15%, 150px); /* Responsive width */
+      height: auto;                   /* Maintain aspect ratio */
+      margin-right: 20px;             /* Space between logo and heading */
+      display: inline-block;
+      vertical-align: middle;
+    }
 
-/* Common styles for both lines */
-.scroll-heading span {
-  display: inline-block;     /* allows animation */
-  opacity: 0;               
-  transform: translateY(-100px);
-  animation: slideIn 1s forwards;
-}
+    /* ==========================
+       Animated Heading
+    ========================== */
+    .scroll-heading {
+      color: #CC5500;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: clamp(24px, 5vw, 36px);
+      margin: 0;
+      flex: 1;                        /* Take remaining space */
+      text-shadow: 2px 2px 6px rgba(204,85,0,0.6);
+    }
 
-/* Add delay for second line */
-.scroll-heading .line1 {
-  animation-delay: 0.5s;    
-}
+    .scroll-heading span {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(-100px);
+      animation: slideIn 1s forwards ease-out;
+    }
 
-.scroll-heading .line2 {
-  animation-delay: 1.2s;    
-}
+    .scroll-heading .line1 { animation-delay: 0.3s; }
+    .scroll-heading .line2 { animation-delay: 1s; }
 
-/* Keyframes for sliding in */
-@keyframes slideIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-</style>
+    @keyframes slideIn {
+      0% { opacity: 0; transform: translateY(-100px); }
+      80% { transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
 
+    /* ==========================
+       Carousel Styles
+    ========================== */
+    .carousel {
+      max-width: 700px;
+      margin: 40px auto;
+      overflow: hidden;
+      position: relative;
+      border-radius: 10px;
+      height: clamp(250px, 40vh, 500px);
+    }
 
+    .carousel-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
 
+    .carousel-item.active {
+      opacity: 1;
+      position: relative;
+    }
 
-<div class="carousel">
-  <div class="carousel-inner">
-    {% assign slides = "/assets/images/slide1.jpg,/assets/images/slide2.jpg,/assets/images/slide3.jpg" | split: "," %}
-    {% for slide in slides %}
-    <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      <img src="{{ slide | relative_url }}" alt="Slide {{ forloop.index }}">
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .carousel-item img {
+        object-fit: contain;
+      }
+    }
+
+    /* Carousel Navigation */
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #CC5500;
+      color: #fff;
+      border: none;
+      font-size: 2rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      z-index: 10;
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+
+    /* Carousel Dots */
+    .dots {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+    }
+
+    .dot {
+      height: 12px;
+      width: 12px;
+      margin: 0 5px;
+      background: #033b03;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .dot.active { background: #CC5500; }
+
+    /* ==========================
+       Library Text
+    ========================== */
+    .library-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #000;
+      max-width: 1000px;
+      margin: 20px auto;
+      text-align: justify;
+    }
+  </style>
+
+  <!-- ==========================
+       Carousel HTML
+  ========================== -->
+  <div class="carousel">
+    <div class="carousel-item active">
+      <img src="{{ '/assets/images/slide1.jpg' | relative_url }}" alt="Slide 1">
     </div>
-    {% endfor %}
+    <div class="carousel-item">
+      <img src="{{ '/assets/images/slide2.jpg' | relative_url }}" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ '/assets/images/slide3.jpg' | relative_url }}" alt="Slide 3">
+    </div>
+
+    <button class="prev" aria-label="Previous Slide">&#10094;</button>
+    <button class="next" aria-label="Next Slide">&#10095;</button>
+
+    <div class="dots"></div>
   </div>
 
-  <!-- Arrows -->
-  <button class="prev">&#10094;</button>
-  <button class="next">&#10095;</button>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const slides = document.querySelectorAll('.carousel-item');
+      const prevBtn = document.querySelector('.prev');
+      const nextBtn = document.querySelector('.next');
+      const dotsContainer = document.querySelector('.dots');
+      let index = 0;
 
-  <!-- Dots -->
-  <div class="dots">
-    {% for slide in slides %}
-    <span class="dot {% if forloop.first %}active{% endif %}"></span>
-    {% endfor %}
-  </div>
+      // Create dots dynamically
+      slides.forEach((_, i) => {
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+        if(i === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => { goToSlide(i); resetTimer(); });
+        dotsContainer.appendChild(dot);
+      });
+
+      const dots = document.querySelectorAll('.dot');
+
+      function goToSlide(n) {
+        if (n < 0) n = slides.length - 1;
+        if (n >= slides.length) n = 0;
+        slides.forEach(s => s.classList.remove('active'));
+        slides[n].classList.add('active');
+        dots.forEach(d => d.classList.remove('active'));
+        dots[n].classList.add('active');
+        index = n;
+      }
+
+      function nextSlide() { goToSlide(index + 1); }
+      function prevSlide() { goToSlide(index - 1); }
+
+      nextBtn.addEventListener('click', () => { nextSlide(); resetTimer(); });
+      prevBtn.addEventListener('click', () => { prevSlide(); resetTimer(); });
+
+      // Autoplay
+      let timer = setInterval(nextSlide, 5000);
+      function resetTimer() { clearInterval(timer); timer = setInterval(nextSlide, 5000); }
+
+      // Mobile swipe support
+      let startX = 0;
+      const carousel = document.querySelector('.carousel');
+      carousel.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+      carousel.addEventListener('touchend', e => {
+        const diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) diff > 0 ? nextSlide() : prevSlide();
+        resetTimer();
+      });
+    });
+  </script>
+
+  <!-- ==========================
+       Library Description
+  ========================== -->
+  <p class="library-text">
+    The Library remains committed to serving you, our users, to the improvement of our services and to the improvement of the access and delivery of information.
+  </p>
+  <p class="library-text">
+    We trust that you will find the information on this site interesting. We welcome your comments and suggestions.
+  </p>
+
 </div>
-
-<style>
-.carousel {
-  width: 100%;
-  max-width:900px;
-  height: 60vh;
-  margin: 40px auto;
-  overflow: hidden;
-  position: relative;
-  border: 0px solid orange;
-  border-radius: 0px;
-}
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.carousel-item.active {
-  opacity: 1;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-/* Arrows */
-.prev, .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  border: none;
-  font-size: 2rem;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-  z-index: 10;
-}
-.prev { left: 10px; }
-.next { right: 10px; }
-
-/* Dots */
-.dots {
-  position: absolute;
-  bottom: 15px;
-  width: 100%;
-  text-align: center;
-}
-.dot {
-  height: 12px;
-  width: 12px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-.dot.active { background-color: #717171; }
-
-/* Responsive */
-@media (max-width: 600px) {
-  .carousel { height: 30vh; }
-  .prev, .next { font-size: 1.5rem; padding: 0.3rem 0.7rem; }
-  .dot { height: 10px; width: 10px; }
-}
-</style>
-
-<script>
-const slides = document.querySelectorAll('.carousel-item');
-const dots = document.querySelectorAll('.dot');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
-
-let slideIndex = 0;
-
-function showSlide(n) {
-  slides.forEach(s => s.classList.remove('active'));
-  dots.forEach(d => d.classList.remove('active'));
-  slides[n].classList.add('active');
-  dots[n].classList.add('active');
-  slideIndex = n;
-}
-
-function nextSlide() { showSlide((slideIndex + 1) % slides.length); }
-function prevSlide() { showSlide((slideIndex - 1 + slides.length) % slides.length); }
-
-// Dots click
-dots.forEach((dot,i) => dot.addEventListener('click', () => showSlide(i)));
-
-// Arrows click
-nextBtn.addEventListener('click', () => { nextSlide(); resetAutoSlide(); });
-prevBtn.addEventListener('click', () => { prevSlide(); resetAutoSlide(); });
-
-// Auto slide
-let autoSlide = setInterval(nextSlide, 5000);
-function resetAutoSlide() {
-  clearInterval(autoSlide);
-  autoSlide = setInterval(nextSlide, 5000);
-}
-
-// Touch swipe support
-let startX = 0, endX = 0;
-const threshold = 50;
-const carouselEl = document.querySelector('.carousel');
-
-carouselEl.addEventListener('touchstart', e => startX = e.touches[0].clientX);
-carouselEl.addEventListener('touchmove', e => endX = e.touches[0].clientX);
-carouselEl.addEventListener('touchend', () => {
-  let diff = startX - endX;
-  if(Math.abs(diff) > threshold){
-    diff > 0 ? nextSlide() : prevSlide();
-    resetAutoSlide();
-  }
-});
-
-// Initialize
-showSlide(0);
-</script>
-
-
- <!-- Load Google Font in <head> (if not already loaded) -->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-
-<!-- Paragraph with styled font -->
-<p class="library-text">
-  The Library remains committed to serving you, our users, to the improvement of our services and to the improvement of the access and delivery of information. Through this website, we aim to provide you with an array of information that keeps you in touch with information sources, regardless of the medium in which it is packaged.
-</p>
-
-<p class="library-text">
-  We trust that you will find the information on this site interesting. We welcome any comments and suggestions that would contribute to enhancing this website.
-</p>
-
-<!-- CSS for paragraph styling -->
-<style>
-.library-text {
-  font-family: 'Montserrat', sans-serif; /* sets font */
-  font-size: 14px;                         /* readable size */
-  line-height: 1.6;                        /* spacing between lines */
-  color: #000000 ;                       /* dark gray text for readability */
-  max-width: 1000px;                        /* optional: keeps paragraph narrow for easy reading */
-  margin: 20px auto;                        /* centers block with space above/below */
-  text-align: justify;                      /* optional: makes edges aligned */
-}
-</style>
