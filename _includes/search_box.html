@@ -1,4 +1,4 @@
-{% assign placeholder = include.placeholder | default: 'UGL Collections... ' %}
+{% assign placeholder = include.placeholder | default: 'UGL Collections...' %}
 {% assign key = include.search | default: 'main' %}
 {% assign config = site.search[key] %}
 {% assign index = config.index | absolute_url %}
@@ -12,13 +12,18 @@
 {%- endcapture -%}
 {% assign fields = fields | split: '|||' | uniq %}
 
-
+<!-- Search Block -->
 <div class='search-block'>
   <div class='input-group'>
+    <span class="input-group-text">
+      <i class="fas fa-search"></i>
+    </span>
     <input type='text' class='form-control' id='search' name='x' placeholder='{{ placeholder }}'>
   </div>
   <div id='results'></div>
 </div>
+
+<!-- Scripts -->
 <script type='text/javascript' src="{{ '/assets/js/elasticlunr.min.js' | absolute_url }}"></script>
 <script type='text/javascript' src="{{ '/assets/js/search-ui.js' | absolute_url }}"></script>
 <script type='text/javascript'>
@@ -30,3 +35,6 @@
     startSearchUI(fields, indexFile, url);
   });
 </script>
+
+<!-- Font Awesome (for search icon) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
