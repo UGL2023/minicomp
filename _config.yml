@@ -1,54 +1,41 @@
 title: Home
-subtitle:
+subtitle: ""
 author:
   name: Wax user
   email: your-email@domain.com
-description:
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  Write an awesome description for your new site here. It will appear in your
+  document head meta (for Google search results) and in your feed.xml site description.
 url: "https://ugl2023.github.io"
-baseurl: "/minicomp"
+baseurl: "/UoG-Library"
+
 # --------------------------------------------------------------
 # COLLECTION SETTINGS
 # --------------------------------------------------------------
-# Wax leverages Jekyll collections for much of its
-# functionality, therefor some of the keys below are from
-# Jekyll while others are Wax-specific.
-# For more info, refer to:
-# ~> https://jekyllrb.com/docs/collections/
-
 collections:
-   exhibits:
+  exhibits:
     output: true
-   minicomp: # name of collection
-    output: true # makes sure pages are output as html files
-   layout: "minicomp_item" # the layout for the pages to use
-   metadata:
-   source: "minicomp.csv" # path to the metadata file within `_data`
-   images:
-   source: "raw_images/minicomp" # path to the directory of images within `_data`
-   pdf:
-   source: "raw_images/minicomp"  # path to the directory of images within `_data`
 
-
- 
+  UoG-Library:
+    output: true
+    layout: "UoG-Library_item"
+    metadata:
+      source: "UoG-Library.csv"
+    images:
+      source: "raw_images/UoG-Library"
+    pdf:
+      source: "raw_images/UoG-Library"
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
 # --------------------------------------------------------------
-# You can create multiple search indexes below (though only one is
-# recommended!) by specifying
-# an `index` file to write it to and some `collections` for it to index
-# and running `$ bundle exec rake wax:search` .
-
 search:
   main:
-    index: "/search/index.json" # file the index will get written to
+    index: "/search/index.json"
     collections:
-      minicomp:
-        content: true # whether or not to index page content
-        fields: # the metadata fields to index
+      UoG-Library:
+        content: true
+        fields:
           - location
           - author
           - artist
@@ -57,52 +44,47 @@ search:
           - object_type
           - Rights
           - language
-          
-
-
-        
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
 # --------------------------------------------------------------
-# Each menu item needs a `label` (whats shown), and a `link`
-# (where it goes). An item can optionally have a dropdown
-# submenu via `sub`.
-
 menu:
- 
   - label: "Search"
-    link: "/search/"    
+    link: "/search/"
+
   - label: "Caribbean Research Library"
-    sub:  
-        - label: "Sandbach Tinne"
-          link: "/tinne/"
-        - label: "Carifesta"
-          link: "/carifesta/"
-        - label: "A.W.B Long"
-          link: "/long/"
-        - label: "A.J Seymour"
-          link: "/seymour/"   
-        - label: "Who is Who"
-          link: "/who/"  
-        - label: "Rare Books"
-          link: "/rare/"  
-        - label: "Norman E Cameron"
-          link: "/cameron/"
-        - label: "Cecil Roth"
-          link: "/roth/"       
-        - label: "Union of Cultural Clubs"
-          link: "/clubs/" 
-  - label: "Reader's Services"      
-    sub:      
-        - label: "Law"
-          link: "/law/"
+    sub:
+      - label: "Sandbach Tinne"
+        link: "/tinne/"
+      - label: "Carifesta"
+        link: "/carifesta/"
+      - label: "A.W.B Long"
+        link: "/long/"
+      - label: "A.J Seymour"
+        link: "/seymour/"
+      - label: "Who is Who"
+        link: "/who/"
+      - label: "Rare Books"
+        link: "/rare/"
+      - label: "Norman E Cameron"
+        link: "/cameron/"
+      - label: "Cecil Roth"
+        link: "/roth/"
+      - label: "Union of Cultural Clubs"
+        link: "/clubs/"
+
+  - label: "Reader's Services"
+    sub:
+      - label: "Law"
+        link: "/law/"
+
   - label: "Exhibits"
     sub:
       - label: "Exhibit Reference"
-        link: "/references/"    
+        link: "/references/"
+
   - label: "Contact Us"
-    link: "/contact us/"
+    link: "/contact-us/"
+
   - label: "About"
     link: "/about/"
-    
