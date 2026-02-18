@@ -7,6 +7,10 @@ description: >
  YG
 url: "https://ugl2023.github.io"
 baseurl: "/minicomp"
+<<<<<<< HEAD
+=======
+
+>>>>>>> a6eb2742acc5710bdfc0a3b4fe68265f6ada70ba
 # --------------------------------------------------------------
 # COLLECTION SETTINGS
 # --------------------------------------------------------------
@@ -14,7 +18,7 @@ collections:
   exhibits:
     output: true
 
-  UoG-Library:
+  minicomp:
     output: true
     layout: "minicomp_item"
     metadata:
