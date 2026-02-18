@@ -34,7 +34,7 @@ title: Home
     ========================== */
     .scroll-heading {
       color: #CC5500;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Sreda', sans-serif;
       font-weight: 700;
       font-size: clamp(24px, 5vw, 36px);
       margin: 0;

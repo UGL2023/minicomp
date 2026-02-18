@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Librarians
-permalink: /contact us/
+permalink: /contact/
 --- 
 
 <br>  
@@ -17,4 +17,6 @@ permalink: /contact us/
 #### Head Reader's Service Division  
 #### Tel# 592 222-4931
 [ rsd.library@uog.edu.gy](rsd.library@uog.edu.gy)
+
+
 

@@ -4,11 +4,9 @@ author:
   name: Wax user
   email: your-email@domain.com
 description: >
-  Write an awesome description for your new site here. It will appear in your
-  document head meta (for Google search results) and in your feed.xml site description.
+ YG
 url: "https://ugl2023.github.io"
-baseurl: "/UoG-Library"
-
+baseurl: "/minicomp"
 # --------------------------------------------------------------
 # COLLECTION SETTINGS
 # --------------------------------------------------------------
@@ -18,13 +16,13 @@ collections:
 
   UoG-Library:
     output: true
-    layout: "UoG-Library_item"
+    layout: "minicomp_item"
     metadata:
-      source: "UoG-Library.csv"
+      source: "minicomp.csv"
     images:
-      source: "raw_images/UoG-Library"
+      source: "raw_images/minicomp"
     pdf:
-      source: "raw_images/UoG-Library"
+      source: "raw_images/minicomp"
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -33,7 +31,7 @@ search:
   main:
     index: "/search/index.json"
     collections:
-      UoG-Library:
+      minicomp:
         content: true
         fields:
           - location
@@ -84,7 +82,7 @@ menu:
         link: "/references/"
 
   - label: "Contact Us"
-    link: "/contact-us/"
+    link: "/contact/"
 
   - label: "About"
     link: "/about/"
